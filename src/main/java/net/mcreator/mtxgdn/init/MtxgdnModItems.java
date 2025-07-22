@@ -10,7 +10,13 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.item.Item;
 
+import net.mcreator.mtxgdn.item.TwentyrItem;
+import net.mcreator.mtxgdn.item.TenrItem;
 import net.mcreator.mtxgdn.item.StongballItem;
+import net.mcreator.mtxgdn.item.OnerItem;
+import net.mcreator.mtxgdn.item.OnehundredrItem;
+import net.mcreator.mtxgdn.item.FiverItem;
+import net.mcreator.mtxgdn.item.FiftyrItem;
 import net.mcreator.mtxgdn.item.BigBoxItem;
 import net.mcreator.mtxgdn.item.BedrockSwordItem;
 import net.mcreator.mtxgdn.item.BedrockShovelItem;
@@ -33,4 +39,10 @@ public class MtxgdnModItems {
 	public static final RegistryObject<Item> BEDROCK_SHOVEL = REGISTRY.register("bedrock_shovel", () -> new BedrockShovelItem());
 	public static final RegistryObject<Item> BEDROCK_HOE = REGISTRY.register("bedrock_hoe", () -> new BedrockHoeItem());
 	public static final RegistryObject<Item> BIG_BOX = REGISTRY.register("big_box", () -> new BigBoxItem());
+	public static final RegistryObject<Item> ONER = REGISTRY.register("oner", () -> new OnerItem());
+	public static final RegistryObject<Item> FIVER = REGISTRY.register("fiver", () -> new FiverItem());
+	public static final RegistryObject<Item> TENR = REGISTRY.register("tenr", () -> new TenrItem());
+	public static final RegistryObject<Item> TWENTYR = REGISTRY.register("twentyr", () -> new TwentyrItem());
+	public static final RegistryObject<Item> FIFTYR = REGISTRY.register("fiftyr", () -> new FiftyrItem());
+	public static final RegistryObject<Item> ONEHUNDREDR = REGISTRY.register("onehundredr", () -> new OnehundredrItem());
 }

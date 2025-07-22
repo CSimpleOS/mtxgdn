@@ -34,6 +34,15 @@ public class MtxgdnModTabs {
 				tabData.accept(MtxgdnModItems.BEDROCK_SHOVEL.get());
 				tabData.accept(MtxgdnModItems.BEDROCK_HOE.get());
 			}).withSearchBar().build());
+	public static final RegistryObject<CreativeModeTab> R = REGISTRY.register("r",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.mtxgdn.r")).icon(() -> new ItemStack(MtxgdnModItems.ONER.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(MtxgdnModItems.ONER.get());
+				tabData.accept(MtxgdnModItems.FIVER.get());
+				tabData.accept(MtxgdnModItems.TENR.get());
+				tabData.accept(MtxgdnModItems.TWENTYR.get());
+				tabData.accept(MtxgdnModItems.FIFTYR.get());
+				tabData.accept(MtxgdnModItems.ONEHUNDREDR.get());
+			}).withSearchBar().build());
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
