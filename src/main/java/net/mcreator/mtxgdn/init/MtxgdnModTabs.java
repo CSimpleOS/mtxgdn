@@ -99,6 +99,7 @@ public class MtxgdnModTabs {
 			tabData.accept(MtxgdnModItems.WHITE_AXE.get());
 			tabData.accept(MtxgdnModItems.WHITE_SHOVEL.get());
 			tabData.accept(MtxgdnModItems.WHITE_HOE.get());
+			tabData.accept(MtxgdnModItems.DIMENSION_DIRT.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {

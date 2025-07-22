@@ -26,6 +26,7 @@ import net.mcreator.mtxgdn.block.RedOreBlock;
 import net.mcreator.mtxgdn.block.RedBlockBlock;
 import net.mcreator.mtxgdn.block.GreenOreBlock;
 import net.mcreator.mtxgdn.block.GreenBlockBlock;
+import net.mcreator.mtxgdn.block.DimensionDirtPortalBlock;
 import net.mcreator.mtxgdn.MtxgdnMod;
 
 public class MtxgdnModBlocks {
@@ -46,4 +47,5 @@ public class MtxgdnModBlocks {
 	public static final RegistryObject<Block> WHITE_BUTTON = REGISTRY.register("white_button", () -> new WhiteButtonBlock());
 	public static final RegistryObject<Block> WHITE_ORE = REGISTRY.register("white_ore", () -> new WhiteOreBlock());
 	public static final RegistryObject<Block> WHITE_BLOCK = REGISTRY.register("white_block", () -> new WhiteBlockBlock());
+	public static final RegistryObject<Block> DIMENSION_DIRT_PORTAL = REGISTRY.register("dimension_dirt_portal", () -> new DimensionDirtPortalBlock());
 }
