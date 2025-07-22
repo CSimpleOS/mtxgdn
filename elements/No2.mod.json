@@ -1,0 +1,9 @@
+{
+  "_fv": 47,
+  "_type": "function",
+  "definition": {
+    "code": "scoreboard players set #event2_active global 1\nscoreboard players set #event2_timer global 1200\nexecute if score #event2_active global matches 1 run {\n    scoreboard players remove #event2_timer global 1\n    execute as @a run {\n        data modify entity @s Inventory[{id:\"minecraft:stone\"}].id set value \"minecraft:diamond_block\"\n        data modify entity @s Inventory[{id:\"minecraft:cobblestone\"}].id set value \"minecraft:diamond_block\"\n    }\n    execute if score #event2_timer global matches 0 run {\n        scoreboard players set #event2_active global 0\n    }\n}",
+    "name": "no_2",
+    "namespace": "mod"
+  }
+}

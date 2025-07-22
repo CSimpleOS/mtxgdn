@@ -1,0 +1,9 @@
+{
+  "_fv": 47,
+  "_type": "command",
+  "definition": {
+    "commandName": "trigger",
+    "permissionLevel": "4",
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"entity\"><field name=\"name\">TargetPlayer</field><field name=\"type\">player</field><next><block type=\"call_procedure\"><field name=\"procedure\">Triggerflow</field></block></next></block></next></block></xml>"
+  }
+}

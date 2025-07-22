@@ -1,0 +1,341 @@
+{
+  "mod_elements": [
+    {
+      "name": "BigBox",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_box",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mtxgdn/item/BigBoxItem.java",
+          "src/main/resources/assets/mtxgdn/models/item/big_box.json",
+          "src/main/java/net/mcreator/mtxgdn/item/inventory/BigBoxInventoryCapability.java"
+        ]
+      },
+      "path": "~/Big Box"
+    },
+    {
+      "name": "BigBoxGui",
+      "type": "gui",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_box_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mtxgdn/client/gui/BigBoxGuiScreen.java",
+          "src/main/java/net/mcreator/mtxgdn/world/inventory/BigBoxGuiMenu.java"
+        ]
+      },
+      "path": "~/Big Box"
+    },
+    {
+      "name": "Wish",
+      "type": "potion",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wish",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Oldenchantedapple",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oldenchantedapple",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/recipes/old_enchanted_apple.json"
+        ]
+      },
+      "path": "~/peifang"
+    },
+    {
+      "name": "Applearrowrecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "applearrowrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/recipes/apple_arrow_recipe.json"
+        ]
+      },
+      "path": "~/peifang"
+    },
+    {
+      "name": "Workbenchduplicate",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "workbenchduplicate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/recipes/workbench_duplicate.json"
+        ]
+      },
+      "path": "~/peifang"
+    },
+    {
+      "name": "Stongball",
+      "type": "rangeditem",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stoneball",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mtxgdn/entity/StongballEntity.java",
+          "src/main/resources/assets/mtxgdn/models/item/stoneball.json",
+          "src/main/java/net/mcreator/mtxgdn/item/StongballItem.java"
+        ]
+      }
+    },
+    {
+      "name": "StoneBallGet",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_ball_get",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/recipes/stone_ball_get.json"
+        ]
+      },
+      "path": "~/peifang"
+    },
+    {
+      "name": "Start",
+      "type": "achievement",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "start",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/advancements/start.json"
+        ]
+      },
+      "path": "~/progress"
+    },
+    {
+      "name": "GetWood",
+      "type": "achievement",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/advancements/get_wood.json"
+        ]
+      },
+      "path": "~/progress"
+    },
+    {
+      "name": "CraftACraftingTable",
+      "type": "achievement",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_a_crafting_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/advancements/craft_a_crafting_table.json"
+        ]
+      },
+      "path": "~/progress"
+    },
+    {
+      "name": "No1",
+      "type": "function",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "no_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/functions/no_1.mcfunction"
+        ]
+      },
+      "path": "~/roll"
+    },
+    {
+      "name": "No2",
+      "type": "function",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "no_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/functions/no_2.mcfunction"
+        ]
+      },
+      "path": "~/roll"
+    },
+    {
+      "name": "Work",
+      "type": "function",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "work",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/functions/work.mcfunction"
+        ]
+      },
+      "path": "~/roll/work"
+    },
+    {
+      "name": "TickFunctions",
+      "type": "tag",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tick_functions",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/functions/tick.json"
+        ]
+      }
+    },
+    {
+      "name": "Granttag",
+      "type": "function",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "granttag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/functions/granttag.mcfunction"
+        ]
+      },
+      "path": "~/roll/work"
+    },
+    {
+      "name": "Triggerflow",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triggerflow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mtxgdn/procedures/TriggerflowProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/roll/work"
+    },
+    {
+      "name": "Trigger",
+      "type": "command",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trigger",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mtxgdn/command/TriggerCommand.java"
+        ]
+      },
+      "path": "~/roll/work"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "subtitles.lava_chicken": "",
+      "advancements.get_wood.descr": "Get your first log!",
+      "item.minecraft.tipped_arrow.effect.wish": "Arrow of Wish",
+      "item.minecraft.potion.effect.wish": "Potion of Wish",
+      "advancements.start.descr": "Welcome,player",
+      "advancements.get_wood.title": "Get Wood",
+      "advancements.craft_a_crafting_table.descr": "Craft your first Crafting Table",
+      "item.minecraft.splash_potion.effect.wish": "Splash Potion of Wish",
+      "item.mtxgdn.stoneball": "Stone ball",
+      "advancements.craft_a_crafting_table.title": "Craft a Crafting Table",
+      "item.minecraft.lingering_potion.effect.wish": "Lingering Potion of Wish",
+      "advancements.start.title": "Start",
+      "item.mtxgdn.big_box": "Big Box"
+    },
+    "zh_cn": {
+      "subtitles.lava_chicken": "",
+      "advancements.get_wood.descr": "得到第一块原木！",
+      "item.minecraft.tipped_arrow.effect.wish": "Arrow of Wish",
+      "item.minecraft.potion.effect.wish": "Potion of Wish",
+      "advancements.start.descr": "欢迎回家",
+      "advancements.get_wood.title": "原木",
+      "advancements.craft_a_crafting_table.descr": "Craft your first Crafting Table",
+      "item.minecraft.splash_potion.effect.wish": "Splash Potion of Wish",
+      "item.mtxgdn.stoneball": "Stone ball",
+      "advancements.craft_a_crafting_table.title": "Craft a Crafting Table",
+      "item.minecraft.lingering_potion.effect.wish": "Lingering Potion of Wish",
+      "advancements.start.title": "一切的开始",
+      "item.mtxgdn.big_box": "大箱子"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Big Box",
+        "children": []
+      },
+      {
+        "name": "peifang",
+        "children": []
+      },
+      {
+        "name": "progress",
+        "children": []
+      },
+      {
+        "name": "roll",
+        "children": [
+          {
+            "name": "work",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "mtxgdn",
+    "modName": "mtxgdn",
+    "version": "1.0.1",
+    "author": "gxydn",
+    "websiteURL": "https://github.com/CSimpleOS",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.mtxgdn",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="GNU General Public License version 3 (GPLv3)"
+
+[[mods]]
+modId="mtxgdn"
+version="1.0.0"
+displayName="mtxgdn"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://github.com/CSimpleOS"
+authors="gxydn"
+
+[[dependencies.mtxgdn]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

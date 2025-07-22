@@ -1,0 +1,854 @@
+{
+  "mod_elements": [
+    {
+      "name": "CopperArmor",
+      "type": "armor",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mtxgdn/item/CopperArmorItem.java",
+          "src/main/resources/assets/mtxgdn/models/item/copper_armor_leggings.json",
+          "src/main/resources/assets/mtxgdn/models/item/copper_armor_helmet.json",
+          "src/main/resources/assets/mtxgdn/models/item/copper_armor_chestplate.json",
+          "src/main/resources/assets/mtxgdn/models/item/copper_armor_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/recipes/copper_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/recipes/copper_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/recipes/copper_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/recipes/copper_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperPickaxe",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mtxgdn/models/item/copper_pickaxe.json",
+          "src/main/java/net/mcreator/mtxgdn/item/CopperPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CopperAxe",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mtxgdn/models/item/copper_axe.json",
+          "src/main/java/net/mcreator/mtxgdn/item/CopperAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CopperSword",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mtxgdn/models/item/copper_sword.json",
+          "src/main/java/net/mcreator/mtxgdn/item/CopperSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CopperShovel",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mtxgdn/models/item/copper_shovel.json",
+          "src/main/java/net/mcreator/mtxgdn/item/CopperShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CopperHoe",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mtxgdn/models/item/copper_hoe.json",
+          "src/main/java/net/mcreator/mtxgdn/item/CopperHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CopperPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/recipes/copper_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperAxeRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/recipes/copper_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperSwordRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/recipes/copper_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperShovelRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/recipes/copper_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperHoeRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/recipes/copper_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperNugget",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_nugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mtxgdn/models/item/copper_nugget.json",
+          "src/main/java/net/mcreator/mtxgdn/item/CopperNuggetItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CopperIngotToCopperNugget",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_ingot_to_copper_nugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/recipes/copper_ingot_to_copper_nugget.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperNuggeToCopperIngot",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_nugge_to_copper_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/recipes/copper_nugge_to_copper_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "Copper",
+      "type": "tag",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/tags/items/copper.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperNuggeGet",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_nugge_get",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/recipes/copper_nugge_get.json"
+        ]
+      }
+    },
+    {
+      "name": "AutumnUpdate2025",
+      "type": "tab",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "autumn_update_2025",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Poisonouspotato",
+      "type": "painting",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poisonouspotato",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/potatos"
+    },
+    {
+      "name": "Ceci",
+      "type": "painting",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ceci",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/potatos"
+    },
+    {
+      "name": "Burningpotato",
+      "type": "painting",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burningpotato",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/potatos"
+    },
+    {
+      "name": "Ubiquitato",
+      "type": "painting",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ubiquitato",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/potatos"
+    },
+    {
+      "name": "Mrpotato",
+      "type": "painting",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mrpotato",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/potatos"
+    },
+    {
+      "name": "Potatoe",
+      "type": "painting",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potatoe",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/potatos"
+    },
+    {
+      "name": "Abstractato",
+      "type": "painting",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abstractato",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/potatos"
+    },
+    {
+      "name": "EffectPotatoOil",
+      "type": "potioneffect",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "effect_potato_oil",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mtxgdn/potion/EffectPotatoOilMobEffect.java"
+        ]
+      },
+      "path": "~/potatos"
+    },
+    {
+      "name": "Potatooil",
+      "type": "potion",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potatooil",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/potatos"
+    },
+    {
+      "name": "Poisonouspotatooil",
+      "type": "potion",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poisonouspotatooil",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/potatos"
+    },
+    {
+      "name": "BigBox",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_box",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mtxgdn/item/BigBoxItem.java",
+          "src/main/resources/assets/mtxgdn/models/item/big_box.json",
+          "src/main/java/net/mcreator/mtxgdn/item/inventory/BigBoxInventoryCapability.java"
+        ]
+      },
+      "path": "~/Big Box"
+    },
+    {
+      "name": "BigBoxGui",
+      "type": "gui",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_box_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mtxgdn/client/gui/BigBoxGuiScreen.java",
+          "src/main/java/net/mcreator/mtxgdn/world/inventory/BigBoxGuiMenu.java"
+        ]
+      },
+      "path": "~/Big Box"
+    },
+    {
+      "name": "Lavachicken",
+      "type": "musicdisc",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lavachicken",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mtxgdn/models/item/lavachicken.json",
+          "src/main/java/net/mcreator/mtxgdn/item/LavachickenItem.java"
+        ]
+      },
+      "path": "~/1.21.7"
+    },
+    {
+      "name": "Dennis",
+      "type": "painting",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dennis",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/1.21.7"
+    },
+    {
+      "name": "Wish",
+      "type": "potion",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wish",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Oldenchantedapple",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oldenchantedapple",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/recipes/old_enchanted_apple.json"
+        ]
+      },
+      "path": "~/peifang"
+    },
+    {
+      "name": "Applearrowrecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "applearrowrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/recipes/apple_arrow_recipe.json"
+        ]
+      },
+      "path": "~/peifang"
+    },
+    {
+      "name": "Workbenchduplicate",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "workbenchduplicate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/recipes/workbench_duplicate.json"
+        ]
+      },
+      "path": "~/peifang"
+    },
+    {
+      "name": "Stongball",
+      "type": "rangeditem",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stoneball",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mtxgdn/entity/StongballEntity.java",
+          "src/main/resources/assets/mtxgdn/models/item/stoneball.json",
+          "src/main/java/net/mcreator/mtxgdn/item/StongballItem.java"
+        ]
+      }
+    },
+    {
+      "name": "StoneBallGet",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_ball_get",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/recipes/stone_ball_get.json"
+        ]
+      },
+      "path": "~/peifang"
+    },
+    {
+      "name": "Start",
+      "type": "achievement",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "start",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/advancements/start.json"
+        ]
+      },
+      "path": "~/progress"
+    },
+    {
+      "name": "GetWood",
+      "type": "achievement",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/advancements/get_wood.json"
+        ]
+      },
+      "path": "~/progress"
+    },
+    {
+      "name": "CraftACraftingTable",
+      "type": "achievement",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_a_crafting_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/advancements/craft_a_crafting_table.json"
+        ]
+      },
+      "path": "~/progress"
+    },
+    {
+      "name": "No1",
+      "type": "function",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "no_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/functions/no_1.mcfunction"
+        ]
+      },
+      "path": "~/roll"
+    },
+    {
+      "name": "No2",
+      "type": "function",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "no_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/functions/no_2.mcfunction"
+        ]
+      },
+      "path": "~/roll"
+    },
+    {
+      "name": "Work",
+      "type": "function",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "work",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/functions/work.mcfunction"
+        ]
+      },
+      "path": "~/roll/work"
+    },
+    {
+      "name": "TickFunctions",
+      "type": "tag",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tick_functions",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/functions/tick.json"
+        ]
+      }
+    },
+    {
+      "name": "Granttag",
+      "type": "function",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "granttag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/functions/granttag.mcfunction"
+        ]
+      },
+      "path": "~/roll/work"
+    },
+    {
+      "name": "Triggerflow",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triggerflow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mtxgdn/procedures/TriggerflowProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/roll/work"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "lava_chicken",
+      "files": [
+        "minecraft_lava_chicken"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.mtxgdn.copper_armor_boots": "Copper Boots",
+      "painting.mtxgdn.mrpotato.title": "Self-portrait",
+      "painting.mtxgdn.mrpotato.author": "Mr. Potato",
+      "item.mtxgdn.lavachicken": "Lava Chicken",
+      "item.mtxgdn.lavachicken.desc": "Hyper Potions - Lava Chicken",
+      "item_group.mtxgdn.autumn_update_2025": "Autumn Update 2025",
+      "effect.mtxgdn.effect_potato_oil": "It\u0027s very slippery",
+      "item.minecraft.lingering_potion.effect.potatooil": "Lingering Potion of Potatooil",
+      "painting.mtxgdn.dennis.title": "Dennis",
+      "painting.mtxgdn.burningpotato.title": "Hot Potato",
+      "subtitles.lava_chicken": "",
+      "item.minecraft.splash_potion.effect.potatooil": "Splash Potion of Potatooil",
+      "advancements.get_wood.descr": "Get your first log!",
+      "item.minecraft.tipped_arrow.effect.wish": "Arrow of Wish",
+      "item.minecraft.potion.effect.wish": "Potion of Wish",
+      "advancements.start.descr": "Welcome,player",
+      "item.mtxgdn.copper_hoe": "Copper Hoe",
+      "item.minecraft.lingering_potion.effect.poisonouspotatooil": "Lingering Potion of Poisonouspotatooil",
+      "item.mtxgdn.copper_armor_helmet": "Copper Helmet",
+      "item.minecraft.tipped_arrow.effect.potatooil": "Arrow of Potatooil",
+      "painting.mtxgdn.abstractato.title": "Tasty Shapes",
+      "painting.mtxgdn.ceci.author": "Mr. Potato",
+      "painting.mtxgdn.ceci.title": "This is not a potato",
+      "item.mtxgdn.copper_sword": "Copper Sword",
+      "advancements.get_wood.title": "Get Wood",
+      "item.mtxgdn.copper_nugget": "Copper Nugget",
+      "item.minecraft.tipped_arrow.effect.poisonouspotatooil": "Arrow of Poisonouspotatooil",
+      "painting.mtxgdn.abstractato.author": "Mr. Potato",
+      "item.mtxgdn.copper_shovel": "Copper Shovel",
+      "item.minecraft.splash_potion.effect.poisonouspotatooil": "Splash Potion of Poisonouspotatooil",
+      "item.mtxgdn.copper_armor_chestplate": "Copper Chestplate",
+      "painting.mtxgdn.ubiquitato.title": "In The Spotlight",
+      "advancements.craft_a_crafting_table.descr": "Craft your first Crafting Table",
+      "item.minecraft.splash_potion.effect.wish": "Splash Potion of Wish",
+      "item.mtxgdn.stoneball": "Stone ball",
+      "painting.mtxgdn.potatoe.title": "Potato",
+      "item.mtxgdn.copper_armor_leggings": "Copper Leggings",
+      "painting.mtxgdn.potatoe.author": "Cris B",
+      "advancements.craft_a_crafting_table.title": "Craft a Crafting Table",
+      "item.mtxgdn.copper_axe": "Copper Axe",
+      "item.minecraft.lingering_potion.effect.wish": "Lingering Potion of Wish",
+      "advancements.start.title": "Start",
+      "painting.mtxgdn.poisonouspotato.author": "Mr. Potato",
+      "item.minecraft.potion.effect.poisonouspotatooil": "Potion of Poisonouspotatooil",
+      "item.minecraft.potion.effect.potatooil": "Potion of Potatooil",
+      "item.mtxgdn.big_box": "Big Box",
+      "painting.mtxgdn.burningpotato.author": "Mr. Potato",
+      "painting.mtxgdn.dennis.author": "Sarah Boeving",
+      "item.mtxgdn.copper_pickaxe": "Copper Pickaxe",
+      "painting.mtxgdn.ubiquitato.author": "Mr. Potato",
+      "painting.mtxgdn.poisonouspotato.title": "poisonous potato"
+    },
+    "zh_cn": {
+      "item.mtxgdn.copper_armor_boots": "Copper Boots",
+      "painting.mtxgdn.mrpotato.title": "Self-portrait",
+      "painting.mtxgdn.mrpotato.author": "Mr. Potato",
+      "item.mtxgdn.lavachicken": "Lava Chicken",
+      "item.mtxgdn.lavachicken.desc": "Hyper Potions - Lava Chicken",
+      "item_group.mtxgdn.autumn_update_2025": "2025年秋季小更新",
+      "effect.mtxgdn.effect_potato_oil": "It\u0027s very slippery",
+      "item.minecraft.lingering_potion.effect.potatooil": "Lingering Potion of Potatooil",
+      "painting.mtxgdn.dennis.title": "Dennis",
+      "painting.mtxgdn.burningpotato.title": "烫手洋芋",
+      "subtitles.lava_chicken": "",
+      "advancements.get_wood.descr": "得到第一块原木！",
+      "item.minecraft.splash_potion.effect.potatooil": "Splash Potion of Potatooil",
+      "item.minecraft.tipped_arrow.effect.wish": "Arrow of Wish",
+      "item.minecraft.potion.effect.wish": "Potion of Wish",
+      "advancements.start.descr": "欢迎回家",
+      "item.mtxgdn.copper_hoe": "Copper Hoe",
+      "item.minecraft.lingering_potion.effect.poisonouspotatooil": "Lingering Potion of Poisonouspotatooil",
+      "item.mtxgdn.copper_armor_helmet": "Copper Helmet",
+      "item.minecraft.tipped_arrow.effect.potatooil": "Arrow of Potatooil",
+      "painting.mtxgdn.abstractato.title": "美味的形状",
+      "painting.mtxgdn.ceci.author": "Mr. Potato",
+      "painting.mtxgdn.ceci.title": "这不是马铃薯",
+      "item.mtxgdn.copper_sword": "Copper Sword",
+      "advancements.get_wood.title": "原木",
+      "item.mtxgdn.copper_nugget": "Copper Nugget",
+      "item.minecraft.tipped_arrow.effect.poisonouspotatooil": "Arrow of Poisonouspotatooil",
+      "painting.mtxgdn.abstractato.author": "Mr. Potato",
+      "item.mtxgdn.copper_shovel": "Copper Shovel",
+      "item.minecraft.splash_potion.effect.poisonouspotatooil": "Splash Potion of Poisonouspotatooil",
+      "item.mtxgdn.copper_armor_chestplate": "Copper Chestplate",
+      "painting.mtxgdn.ubiquitato.title": "聚光灯下",
+      "advancements.craft_a_crafting_table.descr": "Craft your first Crafting Table",
+      "item.minecraft.splash_potion.effect.wish": "Splash Potion of Wish",
+      "item.mtxgdn.stoneball": "Stone ball",
+      "painting.mtxgdn.potatoe.title": "马铃薯",
+      "item.mtxgdn.copper_armor_leggings": "Copper Leggings",
+      "painting.mtxgdn.potatoe.author": "Cris B",
+      "advancements.craft_a_crafting_table.title": "Craft a Crafting Table",
+      "item.mtxgdn.copper_axe": "Copper Axe",
+      "item.minecraft.lingering_potion.effect.wish": "Lingering Potion of Wish",
+      "advancements.start.title": "一切的开始",
+      "painting.mtxgdn.poisonouspotato.author": "Mr. Potato",
+      "item.minecraft.potion.effect.poisonouspotatooil": "Potion of Poisonouspotatooil",
+      "item.minecraft.potion.effect.potatooil": "Potion of Potatooil",
+      "item.mtxgdn.big_box": "大箱子",
+      "painting.mtxgdn.burningpotato.author": "Mr. Potato",
+      "painting.mtxgdn.dennis.author": "Sarah Boeving",
+      "item.mtxgdn.copper_pickaxe": "Copper Pickaxe",
+      "painting.mtxgdn.ubiquitato.author": "Mr. Potato",
+      "painting.mtxgdn.poisonouspotato.title": "马铃薯的叛逆"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "potatos",
+        "children": []
+      },
+      {
+        "name": "The Garden Awakens",
+        "children": []
+      },
+      {
+        "name": "Big Box",
+        "children": []
+      },
+      {
+        "name": "1.21.7",
+        "children": []
+      },
+      {
+        "name": "peifang",
+        "children": []
+      },
+      {
+        "name": "progress",
+        "children": []
+      },
+      {
+        "name": "roll",
+        "children": [
+          {
+            "name": "work",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "mtxgdn",
+    "modName": "mtxgdn",
+    "version": "1.0.1",
+    "author": "gxydn",
+    "websiteURL": "https://github.com/CSimpleOS",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.mtxgdn",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

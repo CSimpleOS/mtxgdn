@@ -1,0 +1,9 @@
+{
+  "_fv": 47,
+  "_type": "function",
+  "definition": {
+    "code": "# work.mcfunction - 主事件调度器\n\n# 权限检查（仅允许有 event_trigger 标签的玩家执行）\nexecute unless entity @s[tag=event_trigger] run {\n    tellraw @s {\"text\":\"你没有权限触发此事件\",\"color\":\"red\"}\n    return\n}\n\n# 1. 全局计时器更新（每刻+1）\nscoreboard players add #global_timer global 1\n\n# 2. 事件触发条件：每2400刻（2分钟）触发一次\nexecute if score #global_timer global matches 2400 run {\n    # 重置计时器\n    scoreboard players set #global_timer global 0\n    \n    # 3. 随机选择事件（1或2）\n    execute store result score #rand global run random 1 2\n    \n    # 4. 根据随机数执行对应事件\n    execute if score #rand global matches 1 run function events:no_1\n    execute if score #rand global matches 2 run function events:no_2\n}\n\n# 5. 倒计时提示（每100刻=5秒提示一次）\nexecute if score #global_timer global matches 100..2400 if score #global_timer global % 100 = 0 run {\n    tellraw @a {\"text\":\"下一次事件将在 \", \"color\":\"yellow\", \"extra\":[\n        {\"text\":\"${(2400 - #global_timer.global) / 20}秒\", \"color\":\"gold\", \"italic\":true},\n        {\"text\":\" 后触发\", \"color\":\"yellow\"}\n    ]}\n}\n\n# init.mcfunction - 初始化所有需要的计分板\n\n# 全局计时器（控制事件触发周期）\nscoreboard objectives add #global_timer dummy\nscoreboard players set #global_timer global 0\n\n# 随机数生成（决定执行哪个事件）\nscoreboard objectives add #rand dummy\nscoreboard players set #rand global 0\n\n# no_1 需要的计分板\nscoreboard objectives add random dummy\n\n# no_2 需要的计分板\nscoreboard objectives add #event2_active dummy\nscoreboard objectives add #event2_timer dummy\nscoreboard players set #event2_active global 0\nscoreboard players set #event2_timer global 0",
+    "name": "work",
+    "namespace": "mod"
+  }
+}
