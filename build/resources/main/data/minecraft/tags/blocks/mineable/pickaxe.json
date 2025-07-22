@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "mtxgdn:green_block",
+    "mtxgdn:green_ore",
+    "mtxgdn:red_ore",
+    "mtxgdn:red_block"
+  ]
+}

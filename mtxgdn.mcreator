@@ -513,74 +513,750 @@
         ]
       },
       "path": "~/money"
+    },
+    {
+      "name": "Green",
+      "type": "item",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mtxgdn/item/GreenItem.java",
+          "src/main/resources/assets/mtxgdn/models/item/green.json"
+        ]
+      },
+      "path": "~/green"
+    },
+    {
+      "name": "GreenOre",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mtxgdn/world/features/ores/GreenOreFeature.java",
+          "src/main/resources/data/mtxgdn/forge/biome_modifier/green_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/mtxgdn/block/GreenOreBlock.java",
+          "src/main/resources/assets/mtxgdn/blockstates/green_ore.json",
+          "src/main/resources/data/mtxgdn/worldgen/placed_feature/green_ore.json",
+          "src/main/resources/assets/mtxgdn/models/item/green_ore.json",
+          "src/main/resources/assets/mtxgdn/models/block/green_ore.json",
+          "src/main/resources/data/mtxgdn/worldgen/configured_feature/green_ore.json"
+        ]
+      },
+      "path": "~/green"
+    },
+    {
+      "name": "GreenBlock",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mtxgdn/blockstates/green_block.json",
+          "src/main/resources/assets/mtxgdn/models/item/green_block.json",
+          "src/main/resources/assets/mtxgdn/models/block/green_block.json",
+          "src/main/java/net/mcreator/mtxgdn/block/GreenBlockBlock.java"
+        ]
+      },
+      "path": "~/green"
+    },
+    {
+      "name": "GreenOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/recipes/green_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/green"
+    },
+    {
+      "name": "GreenBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/recipes/green_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/green"
+    },
+    {
+      "name": "GreenOreSmelting",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/recipes/green_ore_smelting.json"
+        ]
+      },
+      "path": "~/green"
+    },
+    {
+      "name": "GreenPickaxe",
+      "type": "tool",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mtxgdn/item/GreenPickaxeItem.java",
+          "src/main/resources/assets/mtxgdn/models/item/green_pickaxe.json"
+        ]
+      },
+      "path": "~/green"
+    },
+    {
+      "name": "GreenAxe",
+      "type": "tool",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mtxgdn/models/item/green_axe.json",
+          "src/main/java/net/mcreator/mtxgdn/item/GreenAxeItem.java"
+        ]
+      },
+      "path": "~/green"
+    },
+    {
+      "name": "GreenSword",
+      "type": "tool",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mtxgdn/models/item/green_sword.json",
+          "src/main/java/net/mcreator/mtxgdn/item/GreenSwordItem.java"
+        ]
+      },
+      "path": "~/green"
+    },
+    {
+      "name": "GreenShovel",
+      "type": "tool",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mtxgdn/models/item/green_shovel.json",
+          "src/main/java/net/mcreator/mtxgdn/item/GreenShovelItem.java"
+        ]
+      },
+      "path": "~/green"
+    },
+    {
+      "name": "GreenHoe",
+      "type": "tool",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mtxgdn/models/item/green_hoe.json",
+          "src/main/java/net/mcreator/mtxgdn/item/GreenHoeItem.java"
+        ]
+      },
+      "path": "~/green"
+    },
+    {
+      "name": "GreenPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/recipes/green_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/green"
+    },
+    {
+      "name": "GreenAxeRecipe",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/recipes/green_axe_recipe.json"
+        ]
+      },
+      "path": "~/green"
+    },
+    {
+      "name": "GreenSwordRecipe",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/recipes/green_sword_recipe.json"
+        ]
+      },
+      "path": "~/green"
+    },
+    {
+      "name": "GreenShovelRecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/recipes/green_shovel_recipe.json"
+        ]
+      },
+      "path": "~/green"
+    },
+    {
+      "name": "GreenHoeRecipe",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/recipes/green_hoe_recipe.json"
+        ]
+      },
+      "path": "~/green"
+    },
+    {
+      "name": "GreenArmor",
+      "type": "armor",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mtxgdn/models/item/green_armor_boots.json",
+          "src/main/java/net/mcreator/mtxgdn/item/GreenArmorItem.java",
+          "src/main/resources/assets/mtxgdn/models/item/green_armor_helmet.json",
+          "src/main/resources/assets/mtxgdn/models/item/green_armor_chestplate.json",
+          "src/main/resources/assets/mtxgdn/models/item/green_armor_leggings.json"
+        ]
+      },
+      "path": "~/green"
+    },
+    {
+      "name": "GreenArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/recipes/green_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/green"
+    },
+    {
+      "name": "GreenArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/recipes/green_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/green"
+    },
+    {
+      "name": "GreenArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/recipes/green_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/green"
+    },
+    {
+      "name": "GreenArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/recipes/green_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/green"
+    },
+    {
+      "name": "Red",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mtxgdn/item/RedItem.java",
+          "src/main/resources/assets/mtxgdn/models/item/red.json"
+        ]
+      },
+      "path": "~/red"
+    },
+    {
+      "name": "RedOre",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/forge/biome_modifier/red_ore_biome_modifier.json",
+          "src/main/resources/assets/mtxgdn/blockstates/red_ore.json",
+          "src/main/resources/assets/mtxgdn/models/block/red_ore.json",
+          "src/main/java/net/mcreator/mtxgdn/world/features/ores/RedOreFeature.java",
+          "src/main/resources/data/mtxgdn/worldgen/placed_feature/red_ore.json",
+          "src/main/resources/data/mtxgdn/worldgen/configured_feature/red_ore.json",
+          "src/main/java/net/mcreator/mtxgdn/block/RedOreBlock.java",
+          "src/main/resources/assets/mtxgdn/models/item/red_ore.json"
+        ]
+      },
+      "path": "~/red"
+    },
+    {
+      "name": "RedBlock",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mtxgdn/blockstates/red_block.json",
+          "src/main/resources/assets/mtxgdn/models/block/red_block.json",
+          "src/main/java/net/mcreator/mtxgdn/block/RedBlockBlock.java",
+          "src/main/resources/assets/mtxgdn/models/item/red_block.json"
+        ]
+      },
+      "path": "~/red"
+    },
+    {
+      "name": "RedOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/recipes/red_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/red"
+    },
+    {
+      "name": "RedBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/recipes/red_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/red"
+    },
+    {
+      "name": "RedOreSmelting",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/recipes/red_ore_smelting.json"
+        ]
+      },
+      "path": "~/red"
+    },
+    {
+      "name": "RedPickaxe",
+      "type": "tool",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mtxgdn/item/RedPickaxeItem.java",
+          "src/main/resources/assets/mtxgdn/models/item/red_pickaxe.json"
+        ]
+      },
+      "path": "~/red"
+    },
+    {
+      "name": "RedAxe",
+      "type": "tool",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mtxgdn/item/RedAxeItem.java",
+          "src/main/resources/assets/mtxgdn/models/item/red_axe.json"
+        ]
+      },
+      "path": "~/red"
+    },
+    {
+      "name": "RedSword",
+      "type": "tool",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mtxgdn/item/RedSwordItem.java",
+          "src/main/resources/assets/mtxgdn/models/item/red_sword.json"
+        ]
+      },
+      "path": "~/red"
+    },
+    {
+      "name": "RedShovel",
+      "type": "tool",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mtxgdn/item/RedShovelItem.java",
+          "src/main/resources/assets/mtxgdn/models/item/red_shovel.json"
+        ]
+      },
+      "path": "~/red"
+    },
+    {
+      "name": "RedHoe",
+      "type": "tool",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mtxgdn/item/RedHoeItem.java",
+          "src/main/resources/assets/mtxgdn/models/item/red_hoe.json"
+        ]
+      },
+      "path": "~/red"
+    },
+    {
+      "name": "RedPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/recipes/red_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/red"
+    },
+    {
+      "name": "RedAxeRecipe",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/recipes/red_axe_recipe.json"
+        ]
+      },
+      "path": "~/red"
+    },
+    {
+      "name": "RedSwordRecipe",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/recipes/red_sword_recipe.json"
+        ]
+      },
+      "path": "~/red"
+    },
+    {
+      "name": "RedShovelRecipe",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/recipes/red_shovel_recipe.json"
+        ]
+      },
+      "path": "~/red"
+    },
+    {
+      "name": "RedHoeRecipe",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/recipes/red_hoe_recipe.json"
+        ]
+      },
+      "path": "~/red"
+    },
+    {
+      "name": "RedArmor",
+      "type": "armor",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mtxgdn/models/item/red_armor_boots.json",
+          "src/main/resources/assets/mtxgdn/models/item/red_armor_leggings.json",
+          "src/main/resources/assets/mtxgdn/models/item/red_armor_chestplate.json",
+          "src/main/java/net/mcreator/mtxgdn/item/RedArmorItem.java",
+          "src/main/resources/assets/mtxgdn/models/item/red_armor_helmet.json"
+        ]
+      },
+      "path": "~/red"
+    },
+    {
+      "name": "RedArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/recipes/red_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/red"
+    },
+    {
+      "name": "RedArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/recipes/red_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/red"
+    },
+    {
+      "name": "RedArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/recipes/red_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/red"
+    },
+    {
+      "name": "RedArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/recipes/red_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/red"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.mtxgdn.tenr": "10r",
+      "item.mtxgdn.red_hoe": "Red Hoe",
       "item.mtxgdn.bedrock_armor_chestplate": "Bedrock Chestplate",
-      "advancements.get_wood.title": "Get Wood",
-      "item.mtxgdn.bedrock_hoe": "Bedrock Hoe",
+      "item.mtxgdn.green_axe": "Green Axe",
       "item.mtxgdn.bedrock_armor_boots": "Bedrock Boots",
       "item.mtxgdn.oner": "1r",
-      "advancements.craft_a_crafting_table.descr": "Craft your first Crafting Table",
-      "item.mtxgdn.bedrock_armor_helmet": "Bedrock Helmet",
-      "item.mtxgdn.fiftyr": "50r",
-      "item.mtxgdn.fiver": "5r",
-      "item.minecraft.splash_potion.effect.wish": "Splash Potion of Wish",
-      "item.mtxgdn.stoneball": "Stone ball",
-      "item_group.mtxgdn.bedrocktool": "Bedrock tool",
+      "item.mtxgdn.red": "Red",
       "item.mtxgdn.twentyr": "20r",
-      "advancements.craft_a_crafting_table.title": "Craft a Crafting Table",
-      "item.mtxgdn.bedrock_armor_leggings": "Bedrock Leggings",
+      "item_group.mtxgdn.bedrocktool": "Bedrock tool",
       "item.mtxgdn.bedrock_axe": "Bedrock Axe",
-      "item.minecraft.lingering_potion.effect.wish": "Lingering Potion of Wish",
-      "item.mtxgdn.bedrock_pickaxe": "Bedrock Pickaxe",
+      "item.mtxgdn.red_armor_boots": "Red Boots",
       "subtitles.lava_chicken": "",
-      "advancements.start.title": "Start",
       "item.mtxgdn.onehundredr": "100r",
       "advancements.get_wood.descr": "Get your first log!",
       "item.minecraft.tipped_arrow.effect.wish": "Arrow of Wish",
       "item.minecraft.potion.effect.wish": "Potion of Wish",
       "advancements.start.descr": "Welcome,player",
-      "item.mtxgdn.big_box": "Big Box",
-      "item.mtxgdn.bedrock_shovel": "Bedrock Shovel",
+      "item.mtxgdn.red_axe": "Red Axe",
       "item.mtxgdn.bedrock_sword": "Bedrock Sword",
-      "item_group.mtxgdn.r": "R"
-    },
-    "zh_cn": {
-      "item.mtxgdn.tenr": "10元",
-      "item.mtxgdn.bedrock_armor_chestplate": "Bedrock Chestplate",
-      "advancements.get_wood.title": "原木",
+      "item.mtxgdn.green": "Green",
+      "item.mtxgdn.red_armor_chestplate": "Red Chestplate",
+      "item.mtxgdn.tenr": "10r",
+      "advancements.get_wood.title": "Get Wood",
+      "block.mtxgdn.green_ore": "Green Ore",
       "item.mtxgdn.bedrock_hoe": "Bedrock Hoe",
-      "item.mtxgdn.bedrock_armor_boots": "Bedrock Boots",
-      "item.mtxgdn.oner": "1元",
-      "advancements.craft_a_crafting_table.descr": "制造第一个工作台",
+      "advancements.craft_a_crafting_table.descr": "Craft your first Crafting Table",
       "item.mtxgdn.bedrock_armor_helmet": "Bedrock Helmet",
-      "item.mtxgdn.fiftyr": "50元",
-      "item.mtxgdn.fiver": "5元",
+      "item.mtxgdn.fiftyr": "50r",
+      "item.mtxgdn.fiver": "5r",
+      "item.mtxgdn.green_armor_boots": "Green Boots",
+      "item.mtxgdn.green_hoe": "Green Hoe",
       "item.minecraft.splash_potion.effect.wish": "Splash Potion of Wish",
       "item.mtxgdn.stoneball": "Stone ball",
-      "item_group.mtxgdn.bedrocktool": "基岩工具",
-      "item.mtxgdn.twentyr": "20元",
+      "item.mtxgdn.red_sword": "Red Sword",
+      "item.mtxgdn.red_pickaxe": "Red Pickaxe",
       "advancements.craft_a_crafting_table.title": "Craft a Crafting Table",
       "item.mtxgdn.bedrock_armor_leggings": "Bedrock Leggings",
-      "item.mtxgdn.bedrock_axe": "Bedrock Axe",
+      "block.mtxgdn.red_block": "Block of Red",
+      "item.mtxgdn.green_armor_chestplate": "Green Chestplate",
+      "item.mtxgdn.green_sword": "Green Sword",
+      "item.mtxgdn.red_armor_leggings": "Red Leggings",
+      "item.mtxgdn.red_shovel": "Red Shovel",
       "item.minecraft.lingering_potion.effect.wish": "Lingering Potion of Wish",
       "item.mtxgdn.bedrock_pickaxe": "Bedrock Pickaxe",
+      "item.mtxgdn.red_armor_helmet": "Red Helmet",
+      "advancements.start.title": "Start",
+      "item.mtxgdn.green_armor_leggings": "Green Leggings",
+      "item.mtxgdn.green_shovel": "Green Shovel",
+      "item.mtxgdn.green_armor_helmet": "Green Helmet",
+      "item.mtxgdn.big_box": "Big Box",
+      "item.mtxgdn.bedrock_shovel": "Bedrock Shovel",
+      "item_group.mtxgdn.r": "R",
+      "block.mtxgdn.green_block": "Block of Green",
+      "block.mtxgdn.red_ore": "Red Ore",
+      "item.mtxgdn.green_pickaxe": "Green Pickaxe"
+    },
+    "zh_cn": {
+      "item.mtxgdn.red_hoe": "Red Hoe",
+      "item.mtxgdn.bedrock_armor_chestplate": "Bedrock Chestplate",
+      "item.mtxgdn.green_axe": "Green Axe",
+      "item.mtxgdn.bedrock_armor_boots": "Bedrock Boots",
+      "item.mtxgdn.oner": "1元",
+      "item.mtxgdn.red": "Red",
+      "item.mtxgdn.twentyr": "20元",
+      "item_group.mtxgdn.bedrocktool": "基岩工具",
+      "item.mtxgdn.bedrock_axe": "Bedrock Axe",
+      "item.mtxgdn.red_armor_boots": "Red Boots",
       "subtitles.lava_chicken": "",
-      "advancements.start.title": "一切的开始",
       "item.mtxgdn.onehundredr": "100元",
       "advancements.get_wood.descr": "得到第一块原木！",
       "item.minecraft.tipped_arrow.effect.wish": "Arrow of Wish",
       "item.minecraft.potion.effect.wish": "Potion of Wish",
       "advancements.start.descr": "欢迎回家",
+      "item.mtxgdn.red_axe": "Red Axe",
+      "item.mtxgdn.bedrock_sword": "Bedrock Sword",
+      "item.mtxgdn.green": "Green",
+      "item.mtxgdn.red_armor_chestplate": "Red Chestplate",
+      "item.mtxgdn.tenr": "10元",
+      "advancements.get_wood.title": "原木",
+      "block.mtxgdn.green_ore": "Green Ore",
+      "item.mtxgdn.bedrock_hoe": "Bedrock Hoe",
+      "advancements.craft_a_crafting_table.descr": "制造第一个工作台",
+      "item.mtxgdn.bedrock_armor_helmet": "Bedrock Helmet",
+      "item.mtxgdn.fiftyr": "50元",
+      "item.mtxgdn.fiver": "5元",
+      "item.mtxgdn.green_armor_boots": "Green Boots",
+      "item.mtxgdn.green_hoe": "Green Hoe",
+      "item.minecraft.splash_potion.effect.wish": "Splash Potion of Wish",
+      "item.mtxgdn.stoneball": "Stone ball",
+      "item.mtxgdn.red_sword": "Red Sword",
+      "item.mtxgdn.red_pickaxe": "Red Pickaxe",
+      "advancements.craft_a_crafting_table.title": "Craft a Crafting Table",
+      "item.mtxgdn.bedrock_armor_leggings": "Bedrock Leggings",
+      "block.mtxgdn.red_block": "Block of Red",
+      "item.mtxgdn.green_armor_chestplate": "Green Chestplate",
+      "item.mtxgdn.green_sword": "Green Sword",
+      "item.mtxgdn.red_armor_leggings": "Red Leggings",
+      "item.mtxgdn.red_shovel": "Red Shovel",
+      "item.minecraft.lingering_potion.effect.wish": "Lingering Potion of Wish",
+      "item.mtxgdn.bedrock_pickaxe": "Bedrock Pickaxe",
+      "item.mtxgdn.red_armor_helmet": "Red Helmet",
+      "advancements.start.title": "一切的开始",
+      "item.mtxgdn.green_armor_leggings": "Green Leggings",
+      "item.mtxgdn.green_shovel": "Green Shovel",
+      "item.mtxgdn.green_armor_helmet": "Green Helmet",
       "item.mtxgdn.big_box": "大箱子",
       "item.mtxgdn.bedrock_shovel": "Bedrock Shovel",
-      "item.mtxgdn.bedrock_sword": "Bedrock Sword",
-      "item_group.mtxgdn.r": "马内"
+      "item_group.mtxgdn.r": "马内",
+      "block.mtxgdn.green_block": "Block of Green",
+      "block.mtxgdn.red_ore": "Red Ore",
+      "item.mtxgdn.green_pickaxe": "Green Pickaxe"
     }
   },
   "foldersRoot": {
@@ -605,13 +1281,21 @@
       {
         "name": "money",
         "children": []
+      },
+      {
+        "name": "green",
+        "children": []
+      },
+      {
+        "name": "red",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "mtxgdn",
     "modName": "mtxgdn",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "author": "gxydn",
     "websiteURL": "https://github.com/CSimpleOS",
     "license": "GNU General Public License version 3 (GPLv3)",

@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mtxgdn:red"
+    },
+    "1": {
+      "item": "mtxgdn:red"
+    },
+    "2": {
+      "item": "mtxgdn:red"
+    },
+    "3": {
+      "item": "mtxgdn:red"
+    },
+    "4": {
+      "item": "mtxgdn:red"
+    },
+    "5": {
+      "item": "mtxgdn:red"
+    },
+    "6": {
+      "item": "mtxgdn:red"
+    },
+    "7": {
+      "item": "mtxgdn:red"
+    },
+    "8": {
+      "item": "mtxgdn:red"
+    }
+  },
+  "result": {
+    "item": "mtxgdn:red_block",
+    "count": 1
+  }
+}

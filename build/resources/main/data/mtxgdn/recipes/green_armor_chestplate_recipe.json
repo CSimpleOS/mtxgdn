@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mtxgdn:green"
+    },
+    "2": {
+      "item": "mtxgdn:green"
+    },
+    "3": {
+      "item": "mtxgdn:green"
+    },
+    "4": {
+      "item": "mtxgdn:green"
+    },
+    "5": {
+      "item": "mtxgdn:green"
+    },
+    "6": {
+      "item": "mtxgdn:green"
+    },
+    "7": {
+      "item": "mtxgdn:green"
+    },
+    "8": {
+      "item": "mtxgdn:green"
+    }
+  },
+  "result": {
+    "item": "mtxgdn:green_armor_chestplate",
+    "count": 1
+  }
+}

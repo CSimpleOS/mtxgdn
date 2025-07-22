@@ -33,6 +33,12 @@ public class MtxgdnModTabs {
 				tabData.accept(MtxgdnModItems.BEDROCK_SWORD.get());
 				tabData.accept(MtxgdnModItems.BEDROCK_SHOVEL.get());
 				tabData.accept(MtxgdnModItems.BEDROCK_HOE.get());
+				tabData.accept(MtxgdnModBlocks.GREEN_BLOCK.get().asItem());
+				tabData.accept(MtxgdnModBlocks.GREEN_ORE.get().asItem());
+				tabData.accept(MtxgdnModBlocks.RED_ORE.get().asItem());
+				tabData.accept(MtxgdnModBlocks.RED_BLOCK.get().asItem());
+				tabData.accept(MtxgdnModItems.GREEN.get());
+				tabData.accept(MtxgdnModItems.RED.get());
 			}).withSearchBar().build());
 	public static final RegistryObject<CreativeModeTab> R = REGISTRY.register("r",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.mtxgdn.r")).icon(() -> new ItemStack(MtxgdnModItems.ONER.get())).displayItems((parameters, tabData) -> {
@@ -49,6 +55,27 @@ public class MtxgdnModTabs {
 
 		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(MtxgdnModItems.STONEBALL.get());
+			tabData.accept(MtxgdnModItems.GREEN_ARMOR_HELMET.get());
+			tabData.accept(MtxgdnModItems.GREEN_ARMOR_CHESTPLATE.get());
+			tabData.accept(MtxgdnModItems.GREEN_ARMOR_LEGGINGS.get());
+			tabData.accept(MtxgdnModItems.GREEN_ARMOR_BOOTS.get());
+			tabData.accept(MtxgdnModItems.RED_ARMOR_HELMET.get());
+			tabData.accept(MtxgdnModItems.RED_ARMOR_CHESTPLATE.get());
+			tabData.accept(MtxgdnModItems.RED_ARMOR_LEGGINGS.get());
+			tabData.accept(MtxgdnModItems.RED_ARMOR_BOOTS.get());
+			tabData.accept(MtxgdnModItems.GREEN_SWORD.get());
+			tabData.accept(MtxgdnModItems.RED_SWORD.get());
+		}
+
+		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+			tabData.accept(MtxgdnModItems.GREEN_PICKAXE.get());
+			tabData.accept(MtxgdnModItems.GREEN_AXE.get());
+			tabData.accept(MtxgdnModItems.GREEN_SHOVEL.get());
+			tabData.accept(MtxgdnModItems.GREEN_HOE.get());
+			tabData.accept(MtxgdnModItems.RED_PICKAXE.get());
+			tabData.accept(MtxgdnModItems.RED_AXE.get());
+			tabData.accept(MtxgdnModItems.RED_SHOVEL.get());
+			tabData.accept(MtxgdnModItems.RED_HOE.get());
 		}
 	}
 }

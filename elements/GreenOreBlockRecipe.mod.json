@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Green"
+      },
+      {
+        "value": "CUSTOM:Green"
+      },
+      {
+        "value": "CUSTOM:Green"
+      },
+      {
+        "value": "CUSTOM:Green"
+      },
+      {
+        "value": "CUSTOM:Green"
+      },
+      {
+        "value": "CUSTOM:Green"
+      },
+      {
+        "value": "CUSTOM:Green"
+      },
+      {
+        "value": "CUSTOM:Green"
+      },
+      {
+        "value": "CUSTOM:Green"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GreenBlock"
+    },
+    "name": "green_ore_block_recipe",
+    "namespace": "mod"
+  }
+}

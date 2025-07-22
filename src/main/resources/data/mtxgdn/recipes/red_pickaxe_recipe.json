@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "mtxgdn:red"
+    },
+    "1": {
+      "item": "mtxgdn:red"
+    },
+    "2": {
+      "item": "mtxgdn:red"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "mtxgdn:red_pickaxe",
+    "count": 1
+  }
+}

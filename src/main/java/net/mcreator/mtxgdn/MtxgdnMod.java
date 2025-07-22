@@ -33,7 +33,9 @@ import net.mcreator.mtxgdn.init.MtxgdnModTabs;
 import net.mcreator.mtxgdn.init.MtxgdnModPotions;
 import net.mcreator.mtxgdn.init.MtxgdnModMenus;
 import net.mcreator.mtxgdn.init.MtxgdnModItems;
+import net.mcreator.mtxgdn.init.MtxgdnModFeatures;
 import net.mcreator.mtxgdn.init.MtxgdnModEntities;
+import net.mcreator.mtxgdn.init.MtxgdnModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -53,10 +55,13 @@ public class MtxgdnMod {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
+		MtxgdnModBlocks.REGISTRY.register(bus);
+
 		MtxgdnModItems.REGISTRY.register(bus);
 		MtxgdnModEntities.REGISTRY.register(bus);
 
 		MtxgdnModTabs.REGISTRY.register(bus);
+		MtxgdnModFeatures.REGISTRY.register(bus);
 
 		MtxgdnModPotions.REGISTRY.register(bus);
 

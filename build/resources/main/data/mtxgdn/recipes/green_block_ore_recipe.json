@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mtxgdn:green_block"
+    }
+  ],
+  "result": {
+    "item": "mtxgdn:green",
+    "count": 9
+  }
+}
