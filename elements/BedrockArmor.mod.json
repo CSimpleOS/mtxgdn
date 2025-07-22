@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "bedrock_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:Bedrocktool"
     },
     "armorTextureFile": "bedrock",
     "helmetName": "Bedrock Helmet",

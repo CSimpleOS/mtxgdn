@@ -3,15 +3,15 @@
     {
       "name": "BigBox",
       "type": "item",
-      "sortid": 8,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "big_box",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mtxgdn/item/inventory/BigBoxInventoryCapability.java",
+          "src/main/java/net/mcreator/mtxgdn/item/BigBoxItem.java",
           "src/main/resources/assets/mtxgdn/models/item/big_box.json",
-          "src/main/java/net/mcreator/mtxgdn/item/BigBoxItem.java"
+          "src/main/java/net/mcreator/mtxgdn/item/inventory/BigBoxInventoryCapability.java"
         ]
       },
       "path": "~/Big Box"
@@ -19,7 +19,7 @@
     {
       "name": "BigBoxGui",
       "type": "gui",
-      "sortid": 9,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "big_box_gui",
@@ -34,7 +34,7 @@
     {
       "name": "Wish",
       "type": "potion",
-      "sortid": 10,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wish",
@@ -45,7 +45,7 @@
     {
       "name": "Oldenchantedapple",
       "type": "recipe",
-      "sortid": 11,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oldenchantedapple",
@@ -59,7 +59,7 @@
     {
       "name": "Applearrowrecipe",
       "type": "recipe",
-      "sortid": 12,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "applearrowrecipe",
@@ -73,7 +73,7 @@
     {
       "name": "Workbenchduplicate",
       "type": "recipe",
-      "sortid": 13,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "workbenchduplicate",
@@ -87,22 +87,22 @@
     {
       "name": "Stongball",
       "type": "rangeditem",
-      "sortid": 1,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stoneball",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/mtxgdn/entity/StongballEntity.java",
           "src/main/resources/assets/mtxgdn/models/item/stoneball.json",
-          "src/main/java/net/mcreator/mtxgdn/item/StongballItem.java",
-          "src/main/java/net/mcreator/mtxgdn/entity/StongballEntity.java"
+          "src/main/java/net/mcreator/mtxgdn/item/StongballItem.java"
         ]
       }
     },
     {
       "name": "StoneBallGet",
       "type": "recipe",
-      "sortid": 14,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone_ball_get",
@@ -116,7 +116,7 @@
     {
       "name": "Start",
       "type": "achievement",
-      "sortid": 15,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "start",
@@ -130,7 +130,7 @@
     {
       "name": "GetWood",
       "type": "achievement",
-      "sortid": 16,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "get_wood",
@@ -144,7 +144,7 @@
     {
       "name": "CraftACraftingTable",
       "type": "achievement",
-      "sortid": 17,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_a_crafting_table",
@@ -158,7 +158,7 @@
     {
       "name": "No1",
       "type": "function",
-      "sortid": 18,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "no_1",
@@ -172,7 +172,7 @@
     {
       "name": "No2",
       "type": "function",
-      "sortid": 19,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "no_2",
@@ -186,7 +186,7 @@
     {
       "name": "Work",
       "type": "function",
-      "sortid": 20,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "work",
@@ -200,7 +200,7 @@
     {
       "name": "TickFunctions",
       "type": "tag",
-      "sortid": 21,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tick_functions",
@@ -213,7 +213,7 @@
     {
       "name": "Granttag",
       "type": "function",
-      "sortid": 22,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "granttag",
@@ -227,7 +227,7 @@
     {
       "name": "Triggerflow",
       "type": "procedure",
-      "sortid": 23,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "triggerflow",
@@ -247,7 +247,7 @@
     {
       "name": "Trigger",
       "type": "command",
-      "sortid": 24,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "trigger",
@@ -261,7 +261,7 @@
     {
       "name": "BedrockPickaxe",
       "type": "tool",
-      "sortid": 4,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bedrock_pickaxe",
@@ -276,7 +276,7 @@
     {
       "name": "BedrockAxe",
       "type": "tool",
-      "sortid": 3,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bedrock_axe",
@@ -291,7 +291,7 @@
     {
       "name": "BedrockSword",
       "type": "tool",
-      "sortid": 5,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bedrock_sword",
@@ -306,7 +306,7 @@
     {
       "name": "BedrockShovel",
       "type": "tool",
-      "sortid": 6,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bedrock_shovel",
@@ -321,7 +321,7 @@
     {
       "name": "BedrockHoe",
       "type": "tool",
-      "sortid": 7,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bedrock_hoe",
@@ -336,7 +336,7 @@
     {
       "name": "BedrockPickaxeRecipe",
       "type": "recipe",
-      "sortid": 25,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bedrock_pickaxe_recipe",
@@ -350,7 +350,7 @@
     {
       "name": "BedrockAxeRecipe",
       "type": "recipe",
-      "sortid": 26,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bedrock_axe_recipe",
@@ -364,7 +364,7 @@
     {
       "name": "BedrockSwordRecipe",
       "type": "recipe",
-      "sortid": 27,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bedrock_sword_recipe",
@@ -378,7 +378,7 @@
     {
       "name": "BedrockShovelRecipe",
       "type": "recipe",
-      "sortid": 28,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bedrock_shovel_recipe",
@@ -392,7 +392,7 @@
     {
       "name": "BedrockHoeRecipe",
       "type": "recipe",
-      "sortid": 29,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bedrock_hoe_recipe",
@@ -406,7 +406,7 @@
     {
       "name": "BedrockArmor",
       "type": "armor",
-      "sortid": 2,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bedrock_armor",
@@ -424,7 +424,7 @@
     {
       "name": "BedrockArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 30,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bedrock_armor_helmet_recipe",
@@ -438,7 +438,7 @@
     {
       "name": "BedrockArmorChestplateRecipe",
       "type": "recipe",
-      "sortid": 31,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bedrock_armor_chestplate_recipe",
@@ -452,7 +452,7 @@
     {
       "name": "BedrockArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 32,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bedrock_armor_leggings_recipe",
@@ -466,7 +466,7 @@
     {
       "name": "BedrockArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 33,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bedrock_armor_boots_recipe",
@@ -474,18 +474,6 @@
         "files": [
           "src/main/resources/data/mtxgdn/recipes/bedrock_armor_boots_recipe.json"
         ]
-      },
-      "path": "~/bedrock"
-    },
-    {
-      "name": "Bedrocktool",
-      "type": "tab",
-      "sortid": 34,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bedrocktool",
-      "metadata": {
-        "files": []
       },
       "path": "~/bedrock"
     }
@@ -514,7 +502,6 @@
       "item.mtxgdn.bedrock_armor_helmet": "Bedrock Helmet",
       "item.minecraft.splash_potion.effect.wish": "Splash Potion of Wish",
       "item.mtxgdn.stoneball": "Stone ball",
-      "item_group.mtxgdn.bedrocktool": "Bedrock tool",
       "advancements.craft_a_crafting_table.title": "Craft a Crafting Table",
       "item.mtxgdn.bedrock_armor_leggings": "Bedrock Leggings"
     },
@@ -539,7 +526,6 @@
       "item.mtxgdn.bedrock_armor_helmet": "Bedrock Helmet",
       "item.minecraft.splash_potion.effect.wish": "Splash Potion of Wish",
       "item.mtxgdn.stoneball": "Stone ball",
-      "item_group.mtxgdn.bedrocktool": "Bedrock tool",
       "advancements.craft_a_crafting_table.title": "Craft a Crafting Table",
       "item.mtxgdn.bedrock_armor_leggings": "Bedrock Leggings"
     }
@@ -577,7 +563,7 @@
   "workspaceSettings": {
     "modid": "mtxgdn",
     "modName": "mtxgdn",
-    "version": "1.0.2",
+    "version": "1.0.1",
     "author": "gxydn",
     "websiteURL": "https://github.com/CSimpleOS",
     "license": "GNU General Public License version 3 (GPLv3)",

@@ -20,7 +20,7 @@ public class BedrockAxeItem extends AxeItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 18f;
+				return 88f;
 			}
 
 			public int getLevel() {

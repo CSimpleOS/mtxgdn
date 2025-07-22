@@ -9,7 +9,7 @@
     "name": "Bedrock Pickaxe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:Bedrocktool"
     },
     "harvestLevel": 20,
     "efficiency": 24.0,

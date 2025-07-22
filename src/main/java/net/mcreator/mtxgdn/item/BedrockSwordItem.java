@@ -20,7 +20,7 @@ public class BedrockSwordItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 18f;
+				return 58f;
 			}
 
 			public int getLevel() {

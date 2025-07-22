@@ -9,13 +9,13 @@
     "name": "Bedrock Axe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:Bedrocktool"
     },
     "harvestLevel": 20,
     "efficiency": 24.0,
     "attackSpeed": 1.0,
     "enchantability": 140,
-    "damageVsEntity": 20.0,
+    "damageVsEntity": 90.0,
     "usageCount": 6280,
     "blocksAffected": [],
     "hasGlow": false,
