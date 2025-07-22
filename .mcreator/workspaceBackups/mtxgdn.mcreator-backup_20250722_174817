@@ -1770,40 +1770,6 @@
           }
         ]
       }
-    },
-    {
-      "name": "Test1DangWanJiaChiKaiWeiDuShi",
-      "type": "procedure",
-      "sortid": 126,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test_1_dang_wan_jia_chi_kai_wei_du_shi",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/mtxgdn/procedures/Test1DangWanJiaChiKaiWeiDuShiProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Test1",
-      "type": "dimension",
-      "sortid": 127,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test_1",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/mtxgdn/dimension_type/test_1.json",
-          "src/main/resources/data/mtxgdn/dimension/test_1.json",
-          "src/main/java/net/mcreator/mtxgdn/world/dimension/Test1Dimension.java"
-        ]
-      }
     }
   ],
   "variable_elements": [],
@@ -2004,7 +1970,7 @@
   "workspaceSettings": {
     "modid": "mtxgdn",
     "modName": "mtxgdn",
-    "version": "1.0.10",
+    "version": "1.0.9",
     "author": "gxydn",
     "websiteURL": "https://github.com/CSimpleOS",
     "license": "GNU General Public License version 3 (GPLv3)",
