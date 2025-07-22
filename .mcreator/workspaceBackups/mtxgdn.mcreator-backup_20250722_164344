@@ -169,6 +169,19 @@
       }
     },
     {
+      "name": "TickFunctions",
+      "type": "tag",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tick_functions",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/functions/tick.json"
+        ]
+      }
+    },
+    {
       "name": "BedrockPickaxe",
       "type": "tool",
       "sortid": 4,
@@ -1282,7 +1295,7 @@
   "workspaceSettings": {
     "modid": "mtxgdn",
     "modName": "mtxgdn",
-    "version": "1.0.7",
+    "version": "1.0.6",
     "author": "gxydn",
     "websiteURL": "https://github.com/CSimpleOS",
     "license": "GNU General Public License version 3 (GPLv3)",
