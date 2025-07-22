@@ -12,6 +12,13 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.mtxgdn.item.WhiteSwordItem;
+import net.mcreator.mtxgdn.item.WhiteShovelItem;
+import net.mcreator.mtxgdn.item.WhitePickaxeItem;
+import net.mcreator.mtxgdn.item.WhiteItem;
+import net.mcreator.mtxgdn.item.WhiteHoeItem;
+import net.mcreator.mtxgdn.item.WhiteAxeItem;
+import net.mcreator.mtxgdn.item.WhiteArmorItem;
 import net.mcreator.mtxgdn.item.TwentyrItem;
 import net.mcreator.mtxgdn.item.TenrItem;
 import net.mcreator.mtxgdn.item.StongballItem;
@@ -85,6 +92,28 @@ public class MtxgdnModItems {
 	public static final RegistryObject<Item> RED_SWORD = REGISTRY.register("red_sword", () -> new RedSwordItem());
 	public static final RegistryObject<Item> RED_SHOVEL = REGISTRY.register("red_shovel", () -> new RedShovelItem());
 	public static final RegistryObject<Item> RED_HOE = REGISTRY.register("red_hoe", () -> new RedHoeItem());
+	public static final RegistryObject<Item> WHITE_ARMOR_HELMET = REGISTRY.register("white_armor_helmet", () -> new WhiteArmorItem.Helmet());
+	public static final RegistryObject<Item> WHITE_ARMOR_CHESTPLATE = REGISTRY.register("white_armor_chestplate", () -> new WhiteArmorItem.Chestplate());
+	public static final RegistryObject<Item> WHITE_ARMOR_LEGGINGS = REGISTRY.register("white_armor_leggings", () -> new WhiteArmorItem.Leggings());
+	public static final RegistryObject<Item> WHITE_ARMOR_BOOTS = REGISTRY.register("white_armor_boots", () -> new WhiteArmorItem.Boots());
+	public static final RegistryObject<Item> WHITE_WOOD = block(MtxgdnModBlocks.WHITE_WOOD);
+	public static final RegistryObject<Item> WHITE_LOG = block(MtxgdnModBlocks.WHITE_LOG);
+	public static final RegistryObject<Item> WHITE_PLANKS = block(MtxgdnModBlocks.WHITE_PLANKS);
+	public static final RegistryObject<Item> WHITE_LEAVES = block(MtxgdnModBlocks.WHITE_LEAVES);
+	public static final RegistryObject<Item> WHITE_STAIRS = block(MtxgdnModBlocks.WHITE_STAIRS);
+	public static final RegistryObject<Item> WHITE_SLAB = block(MtxgdnModBlocks.WHITE_SLAB);
+	public static final RegistryObject<Item> WHITE_FENCE = block(MtxgdnModBlocks.WHITE_FENCE);
+	public static final RegistryObject<Item> WHITE_FENCE_GATE = block(MtxgdnModBlocks.WHITE_FENCE_GATE);
+	public static final RegistryObject<Item> WHITE_PRESSURE_PLATE = block(MtxgdnModBlocks.WHITE_PRESSURE_PLATE);
+	public static final RegistryObject<Item> WHITE_BUTTON = block(MtxgdnModBlocks.WHITE_BUTTON);
+	public static final RegistryObject<Item> WHITE_ORE = block(MtxgdnModBlocks.WHITE_ORE);
+	public static final RegistryObject<Item> WHITE_BLOCK = block(MtxgdnModBlocks.WHITE_BLOCK);
+	public static final RegistryObject<Item> WHITE = REGISTRY.register("white", () -> new WhiteItem());
+	public static final RegistryObject<Item> WHITE_PICKAXE = REGISTRY.register("white_pickaxe", () -> new WhitePickaxeItem());
+	public static final RegistryObject<Item> WHITE_AXE = REGISTRY.register("white_axe", () -> new WhiteAxeItem());
+	public static final RegistryObject<Item> WHITE_SWORD = REGISTRY.register("white_sword", () -> new WhiteSwordItem());
+	public static final RegistryObject<Item> WHITE_SHOVEL = REGISTRY.register("white_shovel", () -> new WhiteShovelItem());
+	public static final RegistryObject<Item> WHITE_HOE = REGISTRY.register("white_hoe", () -> new WhiteHoeItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

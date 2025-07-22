@@ -39,6 +39,15 @@ public class MtxgdnModTabs {
 				tabData.accept(MtxgdnModBlocks.RED_BLOCK.get().asItem());
 				tabData.accept(MtxgdnModItems.GREEN.get());
 				tabData.accept(MtxgdnModItems.RED.get());
+				tabData.accept(MtxgdnModBlocks.WHITE_WOOD.get().asItem());
+				tabData.accept(MtxgdnModBlocks.WHITE_LOG.get().asItem());
+				tabData.accept(MtxgdnModBlocks.WHITE_PLANKS.get().asItem());
+				tabData.accept(MtxgdnModBlocks.WHITE_STAIRS.get().asItem());
+				tabData.accept(MtxgdnModBlocks.WHITE_SLAB.get().asItem());
+				tabData.accept(MtxgdnModBlocks.WHITE_BUTTON.get().asItem());
+				tabData.accept(MtxgdnModBlocks.WHITE_ORE.get().asItem());
+				tabData.accept(MtxgdnModBlocks.WHITE_BLOCK.get().asItem());
+				tabData.accept(MtxgdnModItems.WHITE.get());
 			}).withSearchBar().build());
 	public static final RegistryObject<CreativeModeTab> R = REGISTRY.register("r",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.mtxgdn.r")).icon(() -> new ItemStack(MtxgdnModItems.ONER.get())).displayItems((parameters, tabData) -> {
@@ -53,6 +62,11 @@ public class MtxgdnModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 
+		if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
+			tabData.accept(MtxgdnModBlocks.WHITE_FENCE_GATE.get().asItem());
+			tabData.accept(MtxgdnModBlocks.WHITE_PRESSURE_PLATE.get().asItem());
+		}
+
 		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(MtxgdnModItems.STONEBALL.get());
 			tabData.accept(MtxgdnModItems.GREEN_ARMOR_HELMET.get());
@@ -65,6 +79,11 @@ public class MtxgdnModTabs {
 			tabData.accept(MtxgdnModItems.RED_ARMOR_BOOTS.get());
 			tabData.accept(MtxgdnModItems.GREEN_SWORD.get());
 			tabData.accept(MtxgdnModItems.RED_SWORD.get());
+			tabData.accept(MtxgdnModItems.WHITE_ARMOR_HELMET.get());
+			tabData.accept(MtxgdnModItems.WHITE_ARMOR_CHESTPLATE.get());
+			tabData.accept(MtxgdnModItems.WHITE_ARMOR_LEGGINGS.get());
+			tabData.accept(MtxgdnModItems.WHITE_ARMOR_BOOTS.get());
+			tabData.accept(MtxgdnModItems.WHITE_SWORD.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
@@ -76,6 +95,15 @@ public class MtxgdnModTabs {
 			tabData.accept(MtxgdnModItems.RED_AXE.get());
 			tabData.accept(MtxgdnModItems.RED_SHOVEL.get());
 			tabData.accept(MtxgdnModItems.RED_HOE.get());
+			tabData.accept(MtxgdnModItems.WHITE_PICKAXE.get());
+			tabData.accept(MtxgdnModItems.WHITE_AXE.get());
+			tabData.accept(MtxgdnModItems.WHITE_SHOVEL.get());
+			tabData.accept(MtxgdnModItems.WHITE_HOE.get());
+		}
+
+		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+			tabData.accept(MtxgdnModBlocks.WHITE_LEAVES.get().asItem());
+			tabData.accept(MtxgdnModBlocks.WHITE_FENCE.get().asItem());
 		}
 	}
 }

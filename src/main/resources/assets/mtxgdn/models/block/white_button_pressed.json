@@ -1,0 +1,7 @@
+{
+  "parent": "block/button_pressed",
+  "textures": {
+    "texture": "mtxgdn:block/white_planks"
+  },
+  "render_type": "solid"
+}

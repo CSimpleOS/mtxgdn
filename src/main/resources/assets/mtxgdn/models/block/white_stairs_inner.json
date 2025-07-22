@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "mtxgdn:block/white_planks",
+    "top": "mtxgdn:block/white_planks",
+    "side": "mtxgdn:block/white_planks"
+  },
+  "render_type": "solid"
+}

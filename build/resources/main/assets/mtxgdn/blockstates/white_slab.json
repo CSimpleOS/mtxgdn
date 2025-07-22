@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mtxgdn:block/white_slab"
+    },
+    "type=top": {
+      "model": "mtxgdn:block/white_slab_top"
+    },
+    "type=double": {
+      "model": "mtxgdn:block/white_slab_full"
+    }
+  }
+}

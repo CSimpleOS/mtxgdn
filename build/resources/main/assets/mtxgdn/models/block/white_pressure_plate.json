@@ -1,0 +1,7 @@
+{
+  "parent": "block/pressure_plate_up",
+  "textures": {
+    "texture": "mtxgdn:block/white_planks"
+  },
+  "render_type": "solid"
+}

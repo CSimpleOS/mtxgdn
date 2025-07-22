@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mtxgdn:block/white_leaves",
+    "particle": "mtxgdn:block/white_leaves"
+  }
+}

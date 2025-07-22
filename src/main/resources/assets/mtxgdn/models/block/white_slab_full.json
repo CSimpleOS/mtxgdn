@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "mtxgdn:block/white_planks",
+    "top": "mtxgdn:block/white_planks",
+    "side": "mtxgdn:block/white_planks"
+  },
+  "render_type": "solid"
+}

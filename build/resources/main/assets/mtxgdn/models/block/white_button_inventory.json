@@ -1,0 +1,7 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "texture": "mtxgdn:block/white_planks"
+  },
+  "render_type": "solid"
+}
