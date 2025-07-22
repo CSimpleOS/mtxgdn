@@ -1,9 +1,0 @@
-{
-  "_fv": 47,
-  "_type": "function",
-  "definition": {
-    "code": "say \"触发事件，id:1\"\nscoreboard objectives add random dummy\nexecute store result score @s random run random 1 64\ngive @s minecraft:diamond ^@s^random",
-    "name": "no_1",
-    "namespace": "mod"
-  }
-}

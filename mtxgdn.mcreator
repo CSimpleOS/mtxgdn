@@ -156,34 +156,6 @@
       "path": "~/progress"
     },
     {
-      "name": "No1",
-      "type": "function",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "no_1",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/mtxgdn/functions/no_1.mcfunction"
-        ]
-      },
-      "path": "~/roll"
-    },
-    {
-      "name": "No2",
-      "type": "function",
-      "sortid": 19,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "no_2",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/mtxgdn/functions/no_2.mcfunction"
-        ]
-      },
-      "path": "~/roll"
-    },
-    {
       "name": "Work",
       "type": "function",
       "sortid": 20,
@@ -194,8 +166,7 @@
         "files": [
           "src/main/resources/data/mtxgdn/functions/work.mcfunction"
         ]
-      },
-      "path": "~/roll/work"
+      }
     },
     {
       "name": "TickFunctions",
@@ -209,54 +180,6 @@
           "src/main/resources/data/minecraft/tags/functions/tick.json"
         ]
       }
-    },
-    {
-      "name": "Granttag",
-      "type": "function",
-      "sortid": 22,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "granttag",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/mtxgdn/functions/granttag.mcfunction"
-        ]
-      },
-      "path": "~/roll/work"
-    },
-    {
-      "name": "Triggerflow",
-      "type": "procedure",
-      "sortid": 23,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "triggerflow",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/mtxgdn/procedures/TriggerflowProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/roll/work"
-    },
-    {
-      "name": "Trigger",
-      "type": "command",
-      "sortid": 24,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "trigger",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/mtxgdn/command/TriggerCommand.java"
-        ]
-      },
-      "path": "~/roll/work"
     },
     {
       "name": "BedrockPickaxe",
@@ -676,15 +599,6 @@
         "children": []
       },
       {
-        "name": "roll",
-        "children": [
-          {
-            "name": "work",
-            "children": []
-          }
-        ]
-      },
-      {
         "name": "bedrock",
         "children": []
       },
@@ -697,7 +611,7 @@
   "workspaceSettings": {
     "modid": "mtxgdn",
     "modName": "mtxgdn",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "author": "gxydn",
     "websiteURL": "https://github.com/CSimpleOS",
     "license": "GNU General Public License version 3 (GPLv3)",
