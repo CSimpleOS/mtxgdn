@@ -24,6 +24,18 @@ public class MtxgdnModTabs {
 
 		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(MtxgdnModItems.STONEBALL.get());
+			tabData.accept(MtxgdnModItems.BEDROCK_SWORD.get());
+			tabData.accept(MtxgdnModItems.BEDROCK_ARMOR_HELMET.get());
+			tabData.accept(MtxgdnModItems.BEDROCK_ARMOR_CHESTPLATE.get());
+			tabData.accept(MtxgdnModItems.BEDROCK_ARMOR_LEGGINGS.get());
+			tabData.accept(MtxgdnModItems.BEDROCK_ARMOR_BOOTS.get());
+		}
+
+		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+			tabData.accept(MtxgdnModItems.BEDROCK_AXE.get());
+			tabData.accept(MtxgdnModItems.BEDROCK_PICKAXE.get());
+			tabData.accept(MtxgdnModItems.BEDROCK_SHOVEL.get());
+			tabData.accept(MtxgdnModItems.BEDROCK_HOE.get());
 		}
 	}
 }
