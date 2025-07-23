@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "mtxgdn:dimension_dirt_portal"
+    },
+    "title": {
+      "translate": "advancements.test.title"
+    },
+    "description": {
+      "translate": "advancements.test.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "test": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "mtxgdn:test_1"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "parent": "mtxgdn:dimension"
+}

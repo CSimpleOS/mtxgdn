@@ -1844,16 +1844,94 @@
       "path": "~/Dimension/dirt"
     },
     {
-      "name": "Bot",
-      "type": "code",
+      "name": "BiomeCobblestone",
+      "type": "biome",
+      "sortid": 130,
       "compiles": true,
-      "locked_code": true,
-      "registry_name": "bot",
+      "locked_code": false,
+      "registry_name": "biome_cobblestone",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mtxgdn/Bot.java"
+          "src/main/resources/data/mtxgdn/worldgen/biome/biome_cobblestone.json"
         ]
-      }
+      },
+      "path": "~/Dimension/cobblestone"
+    },
+    {
+      "name": "DimensionCobblestone",
+      "type": "dimension",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimension_cobblestone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mtxgdn/models/block/dimension_cobblestone_portal_ew.json",
+          "src/main/resources/assets/mtxgdn/models/item/dimension_cobblestone.json",
+          "src/main/java/net/mcreator/mtxgdn/world/teleporter/DimensionCobblestoneTeleporter.java",
+          "src/main/resources/assets/mtxgdn/blockstates/dimension_cobblestone_portal.json",
+          "src/main/java/net/mcreator/mtxgdn/world/teleporter/DimensionCobblestonePortalShape.java",
+          "src/main/java/net/mcreator/mtxgdn/block/DimensionCobblestonePortalBlock.java",
+          "src/main/java/net/mcreator/mtxgdn/world/dimension/DimensionCobblestoneDimension.java",
+          "src/main/resources/assets/mtxgdn/models/block/dimension_cobblestone_portal_ns.json",
+          "src/main/resources/data/mtxgdn/dimension_type/dimension_cobblestone.json",
+          "src/main/resources/data/mtxgdn/dimension/dimension_cobblestone.json",
+          "src/main/java/net/mcreator/mtxgdn/item/DimensionCobblestoneItem.java"
+        ]
+      },
+      "path": "~/Dimension/cobblestone"
+    },
+    {
+      "name": "Dimension",
+      "type": "achievement",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimension",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/advancements/dimension.json"
+        ]
+      },
+      "path": "~/progress/Dimension"
+    },
+    {
+      "name": "BiomeTNT",
+      "type": "biome",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biome_tnt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/worldgen/biome/biome_tnt.json"
+        ]
+      },
+      "path": "~/Dimension/TNT"
+    },
+    {
+      "name": "DimensionTNT",
+      "type": "dimension",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimension_tnt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mtxgdn/world/teleporter/DimensionTNTTeleporter.java",
+          "src/main/java/net/mcreator/mtxgdn/world/teleporter/DimensionTNTPortalShape.java",
+          "src/main/resources/assets/mtxgdn/blockstates/dimension_tnt_portal.json",
+          "src/main/resources/data/mtxgdn/dimension_type/dimension_tnt.json",
+          "src/main/java/net/mcreator/mtxgdn/item/DimensionTNTItem.java",
+          "src/main/resources/data/mtxgdn/dimension/dimension_tnt.json",
+          "src/main/java/net/mcreator/mtxgdn/world/dimension/DimensionTNTDimension.java",
+          "src/main/java/net/mcreator/mtxgdn/block/DimensionTNTPortalBlock.java",
+          "src/main/resources/assets/mtxgdn/models/block/dimension_tnt_portal_ns.json",
+          "src/main/resources/assets/mtxgdn/models/item/dimension_tnt.json",
+          "src/main/resources/assets/mtxgdn/models/block/dimension_tnt_portal_ew.json"
+        ]
+      },
+      "path": "~/Dimension/TNT"
     }
   ],
   "variable_elements": [],
@@ -1869,6 +1947,7 @@
       "item.mtxgdn.bedrock_armor_boots": "Bedrock Boots",
       "item.mtxgdn.oner": "1r",
       "item.mtxgdn.red": "Red",
+      "item.mtxgdn.dimension_cobblestone": "Dimension Cobblestone Portal Igniter",
       "biome.mtxgdn.bione_dirt": "Bione Dirt",
       "block.mtxgdn.white_stairs": "White Stairs",
       "block.mtxgdn.white_fence_gate": "White Fence Gate",
@@ -1889,7 +1968,9 @@
       "item.mtxgdn.white_armor_leggings": "White Leggings",
       "item.mtxgdn.red_axe": "Red Axe",
       "item.mtxgdn.white_sword": "White Sword",
+      "advancements.dimension.title": "Dimension",
       "item.mtxgdn.bedrock_sword": "Bedrock Sword",
+      "item.mtxgdn.dimension_tnt": "Dimension TNT Portal Igniter",
       "item.mtxgdn.white_armor_chestplate": "White Chestplate",
       "item.mtxgdn.green": "Green",
       "item.mtxgdn.white": "White",
@@ -1929,12 +2010,15 @@
       "item.mtxgdn.bedrock_shovel": "Bedrock Shovel",
       "item.mtxgdn.dimension_dirt": "Dimension Dirt Portal Igniter",
       "item.mtxgdn.white_hoe": "White Hoe",
+      "biome.mtxgdn.biome_cobblestone": "Biome Cobblestone",
       "item.mtxgdn.white_armor_helmet": "White Helmet",
+      "biome.mtxgdn.biome_tnt": "Biome TNT",
       "item_group.mtxgdn.r": "R",
       "block.mtxgdn.white_wood": "White Wood",
       "block.mtxgdn.green_block": "Block of Green",
       "block.mtxgdn.red_ore": "Red Ore",
       "item.mtxgdn.white_armor_boots": "White Boots",
+      "advancements.dimension.descr": "Enter Dimension",
       "item.mtxgdn.green_pickaxe": "Green Pickaxe",
       "block.mtxgdn.white_slab": "White Slab"
     },
@@ -1948,6 +2032,7 @@
       "item.mtxgdn.bedrock_armor_boots": "基岩靴子",
       "item.mtxgdn.oner": "1元",
       "item.mtxgdn.red": "红宝石",
+      "item.mtxgdn.dimension_cobblestone": "Dimension Cobblestone Portal Igniter",
       "biome.mtxgdn.bione_dirt": "Bione Dirt",
       "block.mtxgdn.white_fence_gate": "白色栅栏门",
       "block.mtxgdn.white_stairs": "白色楼梯",
@@ -1968,7 +2053,9 @@
       "item.mtxgdn.white_armor_leggings": "White Leggings",
       "item.mtxgdn.red_axe": "Red Axe",
       "item.mtxgdn.white_sword": "White Sword",
+      "advancements.dimension.title": "Dimension",
       "item.mtxgdn.bedrock_sword": "Bedrock Sword",
+      "item.mtxgdn.dimension_tnt": "Dimension TNT Portal Igniter",
       "item.mtxgdn.white_armor_chestplate": "White Chestplate",
       "item.mtxgdn.green": "Green",
       "item.mtxgdn.white": "White",
@@ -2008,12 +2095,15 @@
       "item.mtxgdn.bedrock_shovel": "Bedrock Shovel",
       "item.mtxgdn.dimension_dirt": "Dimension Dirt Portal Igniter",
       "item.mtxgdn.white_hoe": "White Hoe",
+      "biome.mtxgdn.biome_cobblestone": "Biome Cobblestone",
       "item.mtxgdn.white_armor_helmet": "White Helmet",
+      "biome.mtxgdn.biome_tnt": "Biome TNT",
       "item_group.mtxgdn.r": "马内",
       "block.mtxgdn.white_wood": "White Wood",
       "block.mtxgdn.green_block": "Block of Green",
       "block.mtxgdn.red_ore": "Red Ore",
       "item.mtxgdn.white_armor_boots": "White Boots",
+      "advancements.dimension.descr": "Enter Dimension",
       "item.mtxgdn.green_pickaxe": "Green Pickaxe",
       "block.mtxgdn.white_slab": "White Slab"
     }
@@ -2031,7 +2121,12 @@
       },
       {
         "name": "progress",
-        "children": []
+        "children": [
+          {
+            "name": "Dimension",
+            "children": []
+          }
+        ]
       },
       {
         "name": "bedrock",
@@ -2059,6 +2154,14 @@
           {
             "name": "dirt",
             "children": []
+          },
+          {
+            "name": "cobblestone",
+            "children": []
+          },
+          {
+            "name": "TNT",
+            "children": []
           }
         ]
       },
@@ -2071,7 +2174,7 @@
   "workspaceSettings": {
     "modid": "mtxgdn",
     "modName": "mtxgdn",
-    "version": "1.0.11",
+    "version": "1.0.13",
     "author": "gxydn",
     "websiteURL": "https://github.com/CSimpleOS",
     "license": "GNU General Public License version 3 (GPLv3)",
