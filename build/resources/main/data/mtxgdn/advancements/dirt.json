@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dirt"
+    },
+    "title": {
+      "translate": "advancements.dirt.title"
+    },
+    "description": {
+      "translate": "advancements.dirt.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dirt": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "mtxgdn:dimension_dirt"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 500
+  },
+  "parent": "mtxgdn:dimension"
+}

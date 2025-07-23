@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cobblestone"
+    },
+    "title": {
+      "translate": "advancements.cobblestone.title"
+    },
+    "description": {
+      "translate": "advancements.cobblestone.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cobblestone": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "mtxgdn:dimension_cobblestone"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 500
+  },
+  "parent": "mtxgdn:dimension"
+}
