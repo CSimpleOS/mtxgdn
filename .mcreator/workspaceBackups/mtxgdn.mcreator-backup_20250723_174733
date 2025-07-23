@@ -1998,47 +1998,6 @@
         "files": []
       },
       "path": "~/Dimension/key"
-    },
-    {
-      "name": "ToTntLock",
-      "type": "item",
-      "sortid": 141,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "to_tnt_lock",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/mtxgdn/item/ToTntLockItem.java",
-          "src/main/resources/assets/mtxgdn/models/item/to_tnt_lock.json"
-        ]
-      },
-      "path": "~/Dimension/key"
-    },
-    {
-      "name": "ToTnt",
-      "type": "villagertrade",
-      "sortid": 142,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "to_tnt",
-      "metadata": {
-        "files": []
-      },
-      "path": "~/Dimension/key"
-    },
-    {
-      "name": "GetUnlock",
-      "type": "recipe",
-      "sortid": 143,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "get_unlock",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/mtxgdn/recipes/get_unlock.json"
-        ]
-      },
-      "path": "~/peifang"
     }
   ],
   "variable_elements": [],
@@ -2058,7 +2017,6 @@
       "biome.mtxgdn.bione_dirt": "Bione Dirt",
       "block.mtxgdn.white_stairs": "White Stairs",
       "block.mtxgdn.white_fence_gate": "White Fence Gate",
-      "item.mtxgdn.to_tnt_lock": "To Tnt Lock",
       "item.mtxgdn.twentyr": "20r",
       "item_group.mtxgdn.bedrocktool": "Bedrock tool",
       "block.mtxgdn.white_planks": "White Planks",
@@ -2150,7 +2108,6 @@
       "biome.mtxgdn.bione_dirt": "Bione Dirt",
       "block.mtxgdn.white_fence_gate": "白色栅栏门",
       "block.mtxgdn.white_stairs": "白色楼梯",
-      "item.mtxgdn.to_tnt_lock": "To Tnt Lock",
       "item.mtxgdn.twentyr": "20元",
       "item_group.mtxgdn.bedrocktool": "基岩工具",
       "block.mtxgdn.white_planks": "白色木板",
@@ -2299,7 +2256,7 @@
   "workspaceSettings": {
     "modid": "mtxgdn",
     "modName": "mtxgdn",
-    "version": "1.0.16",
+    "version": "1.0.15",
     "author": "gxydn",
     "websiteURL": "https://github.com/CSimpleOS",
     "license": "GNU General Public License version 3 (GPLv3)",

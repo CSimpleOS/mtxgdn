@@ -2025,20 +2025,6 @@
         "files": []
       },
       "path": "~/Dimension/key"
-    },
-    {
-      "name": "GetUnlock",
-      "type": "recipe",
-      "sortid": 143,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "get_unlock",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/mtxgdn/recipes/get_unlock.json"
-        ]
-      },
-      "path": "~/peifang"
     }
   ],
   "variable_elements": [],
@@ -2299,7 +2285,7 @@
   "workspaceSettings": {
     "modid": "mtxgdn",
     "modName": "mtxgdn",
-    "version": "1.0.16",
+    "version": "1.0.15",
     "author": "gxydn",
     "websiteURL": "https://github.com/CSimpleOS",
     "license": "GNU General Public License version 3 (GPLv3)",

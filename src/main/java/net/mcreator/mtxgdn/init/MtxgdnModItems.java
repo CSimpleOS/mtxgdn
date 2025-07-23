@@ -20,6 +20,7 @@ import net.mcreator.mtxgdn.item.WhiteHoeItem;
 import net.mcreator.mtxgdn.item.WhiteAxeItem;
 import net.mcreator.mtxgdn.item.WhiteArmorItem;
 import net.mcreator.mtxgdn.item.TwentyrItem;
+import net.mcreator.mtxgdn.item.ToTntLockItem;
 import net.mcreator.mtxgdn.item.TenrItem;
 import net.mcreator.mtxgdn.item.StongballItem;
 import net.mcreator.mtxgdn.item.RedSwordItem;
@@ -120,6 +121,7 @@ public class MtxgdnModItems {
 	public static final RegistryObject<Item> DIMENSION_DIRT = REGISTRY.register("dimension_dirt", () -> new DimensionDirtItem());
 	public static final RegistryObject<Item> DIMENSION_COBBLESTONE = REGISTRY.register("dimension_cobblestone", () -> new DimensionCobblestoneItem());
 	public static final RegistryObject<Item> DIMENSION_TNT = REGISTRY.register("dimension_tnt", () -> new DimensionTNTItem());
+	public static final RegistryObject<Item> TO_TNT_LOCK = REGISTRY.register("to_tnt_lock", () -> new ToTntLockItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

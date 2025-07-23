@@ -1,0 +1,33 @@
+{
+  "_fv": 47,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "TOOLSMITH"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 10,
+            "price2": {
+              "value": "CUSTOM:ToTntLock"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:DimensionTNT"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 100,
+            "xp": 100,
+            "priceMultiplier": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}
