@@ -101,6 +101,7 @@ public class MtxgdnModTabs {
 			tabData.accept(MtxgdnModItems.WHITE_HOE.get());
 			tabData.accept(MtxgdnModItems.DIMENSION_DIRT.get());
 			tabData.accept(MtxgdnModItems.DIMENSION_COBBLESTONE.get());
+			tabData.accept(MtxgdnModItems.DIMENSION_TNT.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {

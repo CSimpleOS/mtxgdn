@@ -1842,6 +1842,58 @@
         ]
       },
       "path": "~/Dimension/dirt"
+    },
+    {
+      "name": "BiomeCobblestone",
+      "type": "biome",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biome_cobblestone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/worldgen/biome/biome_cobblestone.json"
+        ]
+      },
+      "path": "~/Dimension/cobblestone"
+    },
+    {
+      "name": "DimensionCobblestone",
+      "type": "dimension",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimension_cobblestone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mtxgdn/models/block/dimension_cobblestone_portal_ew.json",
+          "src/main/resources/assets/mtxgdn/models/item/dimension_cobblestone.json",
+          "src/main/java/net/mcreator/mtxgdn/world/teleporter/DimensionCobblestoneTeleporter.java",
+          "src/main/resources/assets/mtxgdn/blockstates/dimension_cobblestone_portal.json",
+          "src/main/java/net/mcreator/mtxgdn/world/teleporter/DimensionCobblestonePortalShape.java",
+          "src/main/java/net/mcreator/mtxgdn/block/DimensionCobblestonePortalBlock.java",
+          "src/main/java/net/mcreator/mtxgdn/world/dimension/DimensionCobblestoneDimension.java",
+          "src/main/resources/assets/mtxgdn/models/block/dimension_cobblestone_portal_ns.json",
+          "src/main/resources/data/mtxgdn/dimension_type/dimension_cobblestone.json",
+          "src/main/resources/data/mtxgdn/dimension/dimension_cobblestone.json",
+          "src/main/java/net/mcreator/mtxgdn/item/DimensionCobblestoneItem.java"
+        ]
+      },
+      "path": "~/Dimension/cobblestone"
+    },
+    {
+      "name": "Dimension",
+      "type": "achievement",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimension",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/advancements/dimension.json"
+        ]
+      },
+      "path": "~/progress/Dimension"
     }
   ],
   "variable_elements": [],
@@ -1857,9 +1909,10 @@
       "item.mtxgdn.bedrock_armor_boots": "Bedrock Boots",
       "item.mtxgdn.oner": "1r",
       "item.mtxgdn.red": "Red",
+      "item.mtxgdn.dimension_cobblestone": "Dimension Cobblestone Portal Igniter",
       "biome.mtxgdn.bione_dirt": "Bione Dirt",
-      "block.mtxgdn.white_fence_gate": "White Fence Gate",
       "block.mtxgdn.white_stairs": "White Stairs",
+      "block.mtxgdn.white_fence_gate": "White Fence Gate",
       "item.mtxgdn.twentyr": "20r",
       "item_group.mtxgdn.bedrocktool": "Bedrock tool",
       "block.mtxgdn.white_planks": "White Planks",
@@ -1877,6 +1930,7 @@
       "item.mtxgdn.white_armor_leggings": "White Leggings",
       "item.mtxgdn.red_axe": "Red Axe",
       "item.mtxgdn.white_sword": "White Sword",
+      "advancements.dimension.title": "Dimension",
       "item.mtxgdn.bedrock_sword": "Bedrock Sword",
       "item.mtxgdn.white_armor_chestplate": "White Chestplate",
       "item.mtxgdn.green": "Green",
@@ -1917,12 +1971,14 @@
       "item.mtxgdn.bedrock_shovel": "Bedrock Shovel",
       "item.mtxgdn.dimension_dirt": "Dimension Dirt Portal Igniter",
       "item.mtxgdn.white_hoe": "White Hoe",
+      "biome.mtxgdn.biome_cobblestone": "Biome Cobblestone",
       "item.mtxgdn.white_armor_helmet": "White Helmet",
       "item_group.mtxgdn.r": "R",
       "block.mtxgdn.white_wood": "White Wood",
       "block.mtxgdn.green_block": "Block of Green",
       "block.mtxgdn.red_ore": "Red Ore",
       "item.mtxgdn.white_armor_boots": "White Boots",
+      "advancements.dimension.descr": "Enter Dimension",
       "item.mtxgdn.green_pickaxe": "Green Pickaxe",
       "block.mtxgdn.white_slab": "White Slab"
     },
@@ -1936,9 +1992,10 @@
       "item.mtxgdn.bedrock_armor_boots": "基岩靴子",
       "item.mtxgdn.oner": "1元",
       "item.mtxgdn.red": "红宝石",
+      "item.mtxgdn.dimension_cobblestone": "Dimension Cobblestone Portal Igniter",
       "biome.mtxgdn.bione_dirt": "Bione Dirt",
-      "block.mtxgdn.white_stairs": "白色楼梯",
       "block.mtxgdn.white_fence_gate": "白色栅栏门",
+      "block.mtxgdn.white_stairs": "白色楼梯",
       "item.mtxgdn.twentyr": "20元",
       "item_group.mtxgdn.bedrocktool": "基岩工具",
       "block.mtxgdn.white_planks": "白色木板",
@@ -1956,6 +2013,7 @@
       "item.mtxgdn.white_armor_leggings": "White Leggings",
       "item.mtxgdn.red_axe": "Red Axe",
       "item.mtxgdn.white_sword": "White Sword",
+      "advancements.dimension.title": "Dimension",
       "item.mtxgdn.bedrock_sword": "Bedrock Sword",
       "item.mtxgdn.white_armor_chestplate": "White Chestplate",
       "item.mtxgdn.green": "Green",
@@ -1996,12 +2054,14 @@
       "item.mtxgdn.bedrock_shovel": "Bedrock Shovel",
       "item.mtxgdn.dimension_dirt": "Dimension Dirt Portal Igniter",
       "item.mtxgdn.white_hoe": "White Hoe",
+      "biome.mtxgdn.biome_cobblestone": "Biome Cobblestone",
       "item.mtxgdn.white_armor_helmet": "White Helmet",
       "item_group.mtxgdn.r": "马内",
       "block.mtxgdn.white_wood": "White Wood",
       "block.mtxgdn.green_block": "Block of Green",
       "block.mtxgdn.red_ore": "Red Ore",
       "item.mtxgdn.white_armor_boots": "White Boots",
+      "advancements.dimension.descr": "Enter Dimension",
       "item.mtxgdn.green_pickaxe": "Green Pickaxe",
       "block.mtxgdn.white_slab": "White Slab"
     }
@@ -2019,7 +2079,12 @@
       },
       {
         "name": "progress",
-        "children": []
+        "children": [
+          {
+            "name": "Dimension",
+            "children": []
+          }
+        ]
       },
       {
         "name": "bedrock",
@@ -2047,15 +2112,23 @@
           {
             "name": "dirt",
             "children": []
+          },
+          {
+            "name": "cobblestone",
+            "children": []
           }
         ]
+      },
+      {
+        "name": "bot",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "mtxgdn",
     "modName": "mtxgdn",
-    "version": "1.0.11",
+    "version": "1.0.12",
     "author": "gxydn",
     "websiteURL": "https://github.com/CSimpleOS",
     "license": "GNU General Public License version 3 (GPLv3)",
