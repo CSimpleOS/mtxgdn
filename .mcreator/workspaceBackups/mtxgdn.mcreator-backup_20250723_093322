@@ -1818,6 +1818,42 @@
         ]
       },
       "path": "~/Dimension/dirt"
+    },
+    {
+      "name": "DimensionDirt",
+      "type": "dimension",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimension_dirt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mtxgdn/world/dimension/DimensionDirtDimension.java",
+          "src/main/resources/data/mtxgdn/dimension_type/dimension_dirt.json",
+          "src/main/resources/assets/mtxgdn/models/item/dimension_dirt.json",
+          "src/main/resources/assets/mtxgdn/models/block/dimension_dirt_portal_ew.json",
+          "src/main/java/net/mcreator/mtxgdn/world/teleporter/DimensionDirtPortalShape.java",
+          "src/main/java/net/mcreator/mtxgdn/world/teleporter/DimensionDirtTeleporter.java",
+          "src/main/resources/data/mtxgdn/dimension/dimension_dirt.json",
+          "src/main/resources/assets/mtxgdn/blockstates/dimension_dirt_portal.json",
+          "src/main/resources/assets/mtxgdn/models/block/dimension_dirt_portal_ns.json",
+          "src/main/java/net/mcreator/mtxgdn/block/DimensionDirtPortalBlock.java",
+          "src/main/java/net/mcreator/mtxgdn/item/DimensionDirtItem.java"
+        ]
+      },
+      "path": "~/Dimension/dirt"
+    },
+    {
+      "name": "Bot",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "bot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mtxgdn/Bot.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1834,8 +1870,8 @@
       "item.mtxgdn.oner": "1r",
       "item.mtxgdn.red": "Red",
       "biome.mtxgdn.bione_dirt": "Bione Dirt",
-      "block.mtxgdn.white_fence_gate": "White Fence Gate",
       "block.mtxgdn.white_stairs": "White Stairs",
+      "block.mtxgdn.white_fence_gate": "White Fence Gate",
       "item.mtxgdn.twentyr": "20r",
       "item_group.mtxgdn.bedrocktool": "Bedrock tool",
       "block.mtxgdn.white_planks": "White Planks",
@@ -1891,6 +1927,7 @@
       "item.mtxgdn.green_armor_helmet": "Green Helmet",
       "item.mtxgdn.big_box": "Big Box",
       "item.mtxgdn.bedrock_shovel": "Bedrock Shovel",
+      "item.mtxgdn.dimension_dirt": "Dimension Dirt Portal Igniter",
       "item.mtxgdn.white_hoe": "White Hoe",
       "item.mtxgdn.white_armor_helmet": "White Helmet",
       "item_group.mtxgdn.r": "R",
@@ -1912,8 +1949,8 @@
       "item.mtxgdn.oner": "1元",
       "item.mtxgdn.red": "红宝石",
       "biome.mtxgdn.bione_dirt": "Bione Dirt",
-      "block.mtxgdn.white_stairs": "白色楼梯",
       "block.mtxgdn.white_fence_gate": "白色栅栏门",
+      "block.mtxgdn.white_stairs": "白色楼梯",
       "item.mtxgdn.twentyr": "20元",
       "item_group.mtxgdn.bedrocktool": "基岩工具",
       "block.mtxgdn.white_planks": "白色木板",
@@ -1969,6 +2006,7 @@
       "item.mtxgdn.green_armor_helmet": "Green Helmet",
       "item.mtxgdn.big_box": "大箱子",
       "item.mtxgdn.bedrock_shovel": "Bedrock Shovel",
+      "item.mtxgdn.dimension_dirt": "Dimension Dirt Portal Igniter",
       "item.mtxgdn.white_hoe": "White Hoe",
       "item.mtxgdn.white_armor_helmet": "White Helmet",
       "item_group.mtxgdn.r": "马内",
@@ -2023,13 +2061,17 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "bot",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "mtxgdn",
     "modName": "mtxgdn",
-    "version": "1.0.10",
+    "version": "1.0.11",
     "author": "gxydn",
     "websiteURL": "https://github.com/CSimpleOS",
     "license": "GNU General Public License version 3 (GPLv3)",

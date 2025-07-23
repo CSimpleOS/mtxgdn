@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "mtxgdn:block/dimension_cobblestone_portal_ew"
+    },
+    "axis=x": {
+      "model": "mtxgdn:block/dimension_cobblestone_portal_ns"
+    }
+  }
+}

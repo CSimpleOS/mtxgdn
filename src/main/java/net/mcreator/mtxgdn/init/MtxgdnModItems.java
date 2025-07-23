@@ -41,6 +41,7 @@ import net.mcreator.mtxgdn.item.GreenArmorItem;
 import net.mcreator.mtxgdn.item.FiverItem;
 import net.mcreator.mtxgdn.item.FiftyrItem;
 import net.mcreator.mtxgdn.item.DimensionDirtItem;
+import net.mcreator.mtxgdn.item.DimensionCobblestoneItem;
 import net.mcreator.mtxgdn.item.BigBoxItem;
 import net.mcreator.mtxgdn.item.BedrockSwordItem;
 import net.mcreator.mtxgdn.item.BedrockShovelItem;
@@ -116,6 +117,7 @@ public class MtxgdnModItems {
 	public static final RegistryObject<Item> WHITE_SHOVEL = REGISTRY.register("white_shovel", () -> new WhiteShovelItem());
 	public static final RegistryObject<Item> WHITE_HOE = REGISTRY.register("white_hoe", () -> new WhiteHoeItem());
 	public static final RegistryObject<Item> DIMENSION_DIRT = REGISTRY.register("dimension_dirt", () -> new DimensionDirtItem());
+	public static final RegistryObject<Item> DIMENSION_COBBLESTONE = REGISTRY.register("dimension_cobblestone", () -> new DimensionCobblestoneItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
