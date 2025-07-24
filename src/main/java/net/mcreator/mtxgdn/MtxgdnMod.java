@@ -31,6 +31,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.mtxgdn.init.MtxgdnModTabs;
 import net.mcreator.mtxgdn.init.MtxgdnModPotions;
+import net.mcreator.mtxgdn.init.MtxgdnModPaintings;
 import net.mcreator.mtxgdn.init.MtxgdnModMenus;
 import net.mcreator.mtxgdn.init.MtxgdnModItems;
 import net.mcreator.mtxgdn.init.MtxgdnModFeatures;
@@ -64,6 +65,7 @@ public class MtxgdnMod {
 		MtxgdnModFeatures.REGISTRY.register(bus);
 
 		MtxgdnModPotions.REGISTRY.register(bus);
+		MtxgdnModPaintings.REGISTRY.register(bus);
 
 		MtxgdnModMenus.REGISTRY.register(bus);
 	}
