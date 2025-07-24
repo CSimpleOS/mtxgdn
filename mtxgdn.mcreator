@@ -2039,6 +2039,33 @@
         ]
       },
       "path": "~/peifang"
+    },
+    {
+      "name": "Zuan",
+      "type": "item",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zuan",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mtxgdn/models/item/zuan.json",
+          "src/main/java/net/mcreator/mtxgdn/item/ZuanItem.java"
+        ]
+      },
+      "path": "~/word"
+    },
+    {
+      "name": "Word",
+      "type": "tab",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "word",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/word"
     }
   ],
   "variable_elements": [],
@@ -2071,6 +2098,7 @@
       "item.mtxgdn.onehundredr": "100r",
       "advancements.get_wood.descr": "Get your first log!",
       "block.mtxgdn.white_pressure_plate": "White Pressure Plate",
+      "item.mtxgdn.zuan": "Zuan",
       "item.minecraft.tipped_arrow.effect.wish": "Arrow of Wish",
       "item.minecraft.potion.effect.wish": "Potion of Wish",
       "advancements.start.descr": "Welcome,player",
@@ -2089,6 +2117,7 @@
       "item.mtxgdn.white_shovel": "White Shovel",
       "item.mtxgdn.tenr": "10r",
       "advancements.dirt.title": "Dirt",
+      "item_group.mtxgdn.word": "Word",
       "advancements.get_wood.title": "Get Wood",
       "block.mtxgdn.green_ore": "Green Ore",
       "advancements.test.descr": "Debug the mod?!",
@@ -2163,6 +2192,7 @@
       "item.mtxgdn.onehundredr": "100元",
       "advancements.get_wood.descr": "得到第一块原木！",
       "block.mtxgdn.white_pressure_plate": "白色压力板",
+      "item.mtxgdn.zuan": "钻",
       "item.minecraft.tipped_arrow.effect.wish": "祝愿之箭",
       "item.minecraft.potion.effect.wish": "Potion of Wish",
       "advancements.start.descr": "欢迎回家",
@@ -2181,6 +2211,7 @@
       "item.mtxgdn.white_shovel": "White Shovel",
       "item.mtxgdn.tenr": "10元",
       "advancements.dirt.title": "Dirt",
+      "item_group.mtxgdn.word": "Word",
       "advancements.get_wood.title": "原木",
       "block.mtxgdn.green_ore": "Green Ore",
       "advancements.test.descr": "调试这个模组？！",
@@ -2293,13 +2324,17 @@
       {
         "name": "bot",
         "children": []
+      },
+      {
+        "name": "word",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "mtxgdn",
     "modName": "mtxgdn",
-    "version": "1.0.16",
+    "version": "1.0.17",
     "author": "gxydn",
     "websiteURL": "https://github.com/CSimpleOS",
     "license": "GNU General Public License version 3 (GPLv3)",

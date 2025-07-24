@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.mtxgdn.item.ZuanItem;
 import net.mcreator.mtxgdn.item.WhiteSwordItem;
 import net.mcreator.mtxgdn.item.WhiteShovelItem;
 import net.mcreator.mtxgdn.item.WhitePickaxeItem;
@@ -122,6 +123,7 @@ public class MtxgdnModItems {
 	public static final RegistryObject<Item> DIMENSION_COBBLESTONE = REGISTRY.register("dimension_cobblestone", () -> new DimensionCobblestoneItem());
 	public static final RegistryObject<Item> DIMENSION_TNT = REGISTRY.register("dimension_tnt", () -> new DimensionTNTItem());
 	public static final RegistryObject<Item> TO_TNT_LOCK = REGISTRY.register("to_tnt_lock", () -> new ToTntLockItem());
+	public static final RegistryObject<Item> ZUAN = REGISTRY.register("zuan", () -> new ZuanItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
