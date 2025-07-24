@@ -12,7 +12,6 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
-import net.mcreator.mtxgdn.item.ZuanItem;
 import net.mcreator.mtxgdn.item.WhiteSwordItem;
 import net.mcreator.mtxgdn.item.WhiteShovelItem;
 import net.mcreator.mtxgdn.item.WhitePickaxeItem;
@@ -24,7 +23,6 @@ import net.mcreator.mtxgdn.item.TwentyrItem;
 import net.mcreator.mtxgdn.item.ToTntLockItem;
 import net.mcreator.mtxgdn.item.TenrItem;
 import net.mcreator.mtxgdn.item.StongballItem;
-import net.mcreator.mtxgdn.item.ShiItem;
 import net.mcreator.mtxgdn.item.RedSwordItem;
 import net.mcreator.mtxgdn.item.RedShovelItem;
 import net.mcreator.mtxgdn.item.RedPickaxeItem;
@@ -124,9 +122,6 @@ public class MtxgdnModItems {
 	public static final RegistryObject<Item> DIMENSION_COBBLESTONE = REGISTRY.register("dimension_cobblestone", () -> new DimensionCobblestoneItem());
 	public static final RegistryObject<Item> DIMENSION_TNT = REGISTRY.register("dimension_tnt", () -> new DimensionTNTItem());
 	public static final RegistryObject<Item> TO_TNT_LOCK = REGISTRY.register("to_tnt_lock", () -> new ToTntLockItem());
-	public static final RegistryObject<Item> ZUAN = REGISTRY.register("zuan", () -> new ZuanItem());
-	public static final RegistryObject<Item> SHI = REGISTRY.register("shi", () -> new ShiItem());
-	public static final RegistryObject<Item> JIEZI_PLATFORM = block(MtxgdnModBlocks.JIEZI_PLATFORM);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

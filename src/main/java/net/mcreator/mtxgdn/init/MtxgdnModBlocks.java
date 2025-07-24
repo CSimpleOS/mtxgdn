@@ -24,7 +24,6 @@ import net.mcreator.mtxgdn.block.WhiteButtonBlock;
 import net.mcreator.mtxgdn.block.WhiteBlockBlock;
 import net.mcreator.mtxgdn.block.RedOreBlock;
 import net.mcreator.mtxgdn.block.RedBlockBlock;
-import net.mcreator.mtxgdn.block.JieziPlatformBlock;
 import net.mcreator.mtxgdn.block.GreenOreBlock;
 import net.mcreator.mtxgdn.block.GreenBlockBlock;
 import net.mcreator.mtxgdn.block.DimensionTNTPortalBlock;
@@ -53,5 +52,4 @@ public class MtxgdnModBlocks {
 	public static final RegistryObject<Block> DIMENSION_DIRT_PORTAL = REGISTRY.register("dimension_dirt_portal", () -> new DimensionDirtPortalBlock());
 	public static final RegistryObject<Block> DIMENSION_COBBLESTONE_PORTAL = REGISTRY.register("dimension_cobblestone_portal", () -> new DimensionCobblestonePortalBlock());
 	public static final RegistryObject<Block> DIMENSION_TNT_PORTAL = REGISTRY.register("dimension_tnt_portal", () -> new DimensionTNTPortalBlock());
-	public static final RegistryObject<Block> JIEZI_PLATFORM = REGISTRY.register("jiezi_platform", () -> new JieziPlatformBlock());
 }

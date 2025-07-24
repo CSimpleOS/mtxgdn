@@ -36,7 +36,6 @@ import net.mcreator.mtxgdn.init.MtxgdnModItems;
 import net.mcreator.mtxgdn.init.MtxgdnModFeatures;
 import net.mcreator.mtxgdn.init.MtxgdnModEntities;
 import net.mcreator.mtxgdn.init.MtxgdnModBlocks;
-import net.mcreator.mtxgdn.init.MtxgdnModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -57,7 +56,7 @@ public class MtxgdnMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		MtxgdnModBlocks.REGISTRY.register(bus);
-		MtxgdnModBlockEntities.REGISTRY.register(bus);
+
 		MtxgdnModItems.REGISTRY.register(bus);
 		MtxgdnModEntities.REGISTRY.register(bus);
 

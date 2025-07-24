@@ -58,12 +58,6 @@ public class MtxgdnModTabs {
 				tabData.accept(MtxgdnModItems.FIFTYR.get());
 				tabData.accept(MtxgdnModItems.ONEHUNDREDR.get());
 			}).withSearchBar().build());
-	public static final RegistryObject<CreativeModeTab> WORD = REGISTRY.register("word",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.mtxgdn.word")).icon(() -> new ItemStack(MtxgdnModItems.ZUAN.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(MtxgdnModItems.ZUAN.get());
-				tabData.accept(MtxgdnModItems.SHI.get());
-				tabData.accept(MtxgdnModBlocks.JIEZI_PLATFORM.get().asItem());
-			}).withSearchBar().build());
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {

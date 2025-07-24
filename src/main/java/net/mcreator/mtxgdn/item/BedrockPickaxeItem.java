@@ -12,7 +12,7 @@ public class BedrockPickaxeItem extends PickaxeItem {
 	public BedrockPickaxeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 6280;
+				return 128000;
 			}
 
 			public float getSpeed() {

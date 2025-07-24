@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "mtxgdn:block/jiezi_platform",
-    "particle": "mtxgdn:block/jiezi_platform"
-  },
-  "render_type": "cutout_mipped"
-}
