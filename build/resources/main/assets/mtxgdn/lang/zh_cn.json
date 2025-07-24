@@ -1,6 +1,7 @@
 {
   "item.mtxgdn.white_axe": "白斧",
   "item.mtxgdn.red_hoe": "红锄",
+  "block.mtxgdn.jiezi_platform": "Jiezi Platform",
   "item.mtxgdn.bedrock_armor_chestplate": "基岩胸甲",
   "item.mtxgdn.green_axe": "绿斧",
   "block.mtxgdn.white_leaves": "白树叶",
@@ -47,6 +48,7 @@
   "item_group.mtxgdn.word": "Word",
   "advancements.get_wood.title": "原木",
   "block.mtxgdn.green_ore": "Green Ore",
+  "item.mtxgdn.shi": "石",
   "advancements.test.descr": "调试这个模组？！",
   "item.mtxgdn.bedrock_hoe": "Bedrock Hoe",
   "advancements.craft_a_crafting_table.descr": "制造第一个工作台",

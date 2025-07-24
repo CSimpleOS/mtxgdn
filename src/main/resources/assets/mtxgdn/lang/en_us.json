@@ -1,6 +1,7 @@
 {
   "item.mtxgdn.white_axe": "White Axe",
   "item.mtxgdn.red_hoe": "Red Hoe",
+  "block.mtxgdn.jiezi_platform": "Jiezi Platform",
   "item.mtxgdn.bedrock_armor_chestplate": "Bedrock Chestplate",
   "item.mtxgdn.green_axe": "Green Axe",
   "block.mtxgdn.white_leaves": "White Leaves",
@@ -47,6 +48,7 @@
   "item_group.mtxgdn.word": "Word",
   "advancements.get_wood.title": "Get Wood",
   "block.mtxgdn.green_ore": "Green Ore",
+  "item.mtxgdn.shi": "Shi",
   "advancements.test.descr": "Debug the mod?!",
   "item.mtxgdn.bedrock_hoe": "Bedrock Hoe",
   "advancements.craft_a_crafting_table.descr": "Craft your first Crafting Table",

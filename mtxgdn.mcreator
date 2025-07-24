@@ -2066,6 +2066,54 @@
         "files": []
       },
       "path": "~/word"
+    },
+    {
+      "name": "Shi",
+      "type": "item",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shi",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mtxgdn/models/item/shi.json",
+          "src/main/java/net/mcreator/mtxgdn/item/ShiItem.java"
+        ]
+      },
+      "path": "~/word"
+    },
+    {
+      "name": "JieziPlatform",
+      "type": "block",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jiezi_platform",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mtxgdn/models/block/jiezi_platform.json",
+          "src/main/java/net/mcreator/mtxgdn/block/entity/JieziPlatformBlockEntity.java",
+          "src/main/java/net/mcreator/mtxgdn/block/JieziPlatformBlock.java",
+          "src/main/resources/assets/mtxgdn/blockstates/jiezi_platform.json",
+          "src/main/resources/assets/mtxgdn/models/item/jiezi_platform.json"
+        ]
+      },
+      "path": "~/word/tool"
+    },
+    {
+      "name": "JieziPlatformGUI",
+      "type": "gui",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jiezi_platform_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mtxgdn/world/inventory/JieziPlatformGUIMenu.java",
+          "src/main/java/net/mcreator/mtxgdn/client/gui/JieziPlatformGUIScreen.java"
+        ]
+      },
+      "path": "~/word/tool"
     }
   ],
   "variable_elements": [],
@@ -2074,6 +2122,7 @@
     "en_us": {
       "item.mtxgdn.white_axe": "White Axe",
       "item.mtxgdn.red_hoe": "Red Hoe",
+      "block.mtxgdn.jiezi_platform": "Jiezi Platform",
       "item.mtxgdn.bedrock_armor_chestplate": "Bedrock Chestplate",
       "item.mtxgdn.green_axe": "Green Axe",
       "block.mtxgdn.white_leaves": "White Leaves",
@@ -2120,6 +2169,7 @@
       "item_group.mtxgdn.word": "Word",
       "advancements.get_wood.title": "Get Wood",
       "block.mtxgdn.green_ore": "Green Ore",
+      "item.mtxgdn.shi": "Shi",
       "advancements.test.descr": "Debug the mod?!",
       "item.mtxgdn.bedrock_hoe": "Bedrock Hoe",
       "advancements.craft_a_crafting_table.descr": "Craft your first Crafting Table",
@@ -2168,6 +2218,7 @@
     "zh_cn": {
       "item.mtxgdn.white_axe": "白斧",
       "item.mtxgdn.red_hoe": "红锄",
+      "block.mtxgdn.jiezi_platform": "Jiezi Platform",
       "item.mtxgdn.bedrock_armor_chestplate": "基岩胸甲",
       "item.mtxgdn.green_axe": "绿斧",
       "block.mtxgdn.white_leaves": "白树叶",
@@ -2214,6 +2265,7 @@
       "item_group.mtxgdn.word": "Word",
       "advancements.get_wood.title": "原木",
       "block.mtxgdn.green_ore": "Green Ore",
+      "item.mtxgdn.shi": "石",
       "advancements.test.descr": "调试这个模组？！",
       "item.mtxgdn.bedrock_hoe": "Bedrock Hoe",
       "advancements.craft_a_crafting_table.descr": "制造第一个工作台",
@@ -2327,14 +2379,19 @@
       },
       {
         "name": "word",
-        "children": []
+        "children": [
+          {
+            "name": "tool",
+            "children": []
+          }
+        ]
       }
     ]
   },
   "workspaceSettings": {
     "modid": "mtxgdn",
     "modName": "mtxgdn",
-    "version": "1.0.17",
+    "version": "1.0.17-beta.1",
     "author": "gxydn",
     "websiteURL": "https://github.com/CSimpleOS",
     "license": "GNU General Public License version 3 (GPLv3)",

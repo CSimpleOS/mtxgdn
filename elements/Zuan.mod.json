@@ -10,7 +10,7 @@
     "name": "Zuan",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "CUSTOM:Word"
     },
     "stackSize": 64,
     "enchantability": 0,
