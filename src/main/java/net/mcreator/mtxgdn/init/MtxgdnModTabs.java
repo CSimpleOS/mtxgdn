@@ -109,5 +109,9 @@ public class MtxgdnModTabs {
 			tabData.accept(MtxgdnModBlocks.WHITE_LEAVES.get().asItem());
 			tabData.accept(MtxgdnModBlocks.WHITE_FENCE.get().asItem());
 		}
+
+		if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+			tabData.accept(MtxgdnModItems.BARRIPPLE.get());
+		}
 	}
 }

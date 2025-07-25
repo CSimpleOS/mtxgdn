@@ -52,6 +52,7 @@
   "advancements.craft_a_crafting_table.descr": "Craft your first Crafting Table",
   "item.mtxgdn.bedrock_armor_helmet": "Bedrock Helmet",
   "item.mtxgdn.fiftyr": "50r",
+  "wishing.you.all.the.best": "",
   "item.mtxgdn.fiver": "5r",
   "item.mtxgdn.green_armor_boots": "Green Boots",
   "item.mtxgdn.green_hoe": "Green Hoe",
@@ -90,5 +91,6 @@
   "item.mtxgdn.white_armor_boots": "White Boots",
   "advancements.dimension.descr": "Enter Dimension",
   "item.mtxgdn.green_pickaxe": "Green Pickaxe",
-  "block.mtxgdn.white_slab": "White Slab"
+  "block.mtxgdn.white_slab": "White Slab",
+  "item.mtxgdn.barripple": "Barripple"
 }

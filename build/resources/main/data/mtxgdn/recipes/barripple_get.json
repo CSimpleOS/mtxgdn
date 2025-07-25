@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:barrier"
+    },
+    "1": {
+      "item": "minecraft:barrier"
+    },
+    "2": {
+      "item": "minecraft:barrier"
+    },
+    "3": {
+      "item": "minecraft:barrier"
+    },
+    "4": {
+      "item": "minecraft:apple"
+    },
+    "5": {
+      "item": "minecraft:barrier"
+    },
+    "6": {
+      "item": "minecraft:barrier"
+    },
+    "7": {
+      "item": "minecraft:barrier"
+    },
+    "8": {
+      "item": "minecraft:barrier"
+    }
+  },
+  "result": {
+    "item": "mtxgdn:barripple",
+    "count": 1
+  }
+}

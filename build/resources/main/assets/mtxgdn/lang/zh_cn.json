@@ -52,6 +52,7 @@
   "advancements.craft_a_crafting_table.descr": "制造第一个工作台",
   "item.mtxgdn.bedrock_armor_helmet": "基岩头盔",
   "item.mtxgdn.fiftyr": "50元",
+  "wishing.you.all.the.best": "万事顺利，前途似锦（成功上岸？）",
   "item.mtxgdn.fiver": "5元",
   "item.mtxgdn.green_armor_boots": "Green Boots",
   "item.mtxgdn.green_hoe": "Green Hoe",
@@ -90,5 +91,6 @@
   "item.mtxgdn.white_armor_boots": "White Boots",
   "advancements.dimension.descr": "维度",
   "item.mtxgdn.green_pickaxe": "Green Pickaxe",
-  "block.mtxgdn.white_slab": "White Slab"
+  "block.mtxgdn.white_slab": "White Slab",
+  "item.mtxgdn.barripple": "屏果"
 }

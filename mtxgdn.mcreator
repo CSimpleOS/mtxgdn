@@ -2051,6 +2051,89 @@
         "files": []
       },
       "path": "~/sundries"
+    },
+    {
+      "name": "SuicideRun",
+      "type": "procedure",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suicide_run",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mtxgdn/procedures/SuicideRunProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/command/suicide"
+    },
+    {
+      "name": "Suicide",
+      "type": "command",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suicide",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mtxgdn/command/SuicideCommand.java"
+        ]
+      },
+      "path": "~/command/suicide"
+    },
+    {
+      "name": "Barripple",
+      "type": "item",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barripple",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mtxgdn/models/item/barripple.json",
+          "src/main/java/net/mcreator/mtxgdn/item/BarrippleItem.java"
+        ]
+      },
+      "path": "~/food"
+    },
+    {
+      "name": "WhenPlayerEatBarripple",
+      "type": "procedure",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "when_player_eat_barripple",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mtxgdn/procedures/WhenPlayerEatBarrippleProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/food"
+    },
+    {
+      "name": "BarrippleGet",
+      "type": "recipe",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barripple_get",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mtxgdn/recipes/barripple_get.json"
+        ]
+      },
+      "path": "~/peifang"
     }
   ],
   "variable_elements": [],
@@ -2110,6 +2193,7 @@
       "advancements.craft_a_crafting_table.descr": "Craft your first Crafting Table",
       "item.mtxgdn.bedrock_armor_helmet": "Bedrock Helmet",
       "item.mtxgdn.fiftyr": "50r",
+      "wishing.you.all.the.best": "",
       "item.mtxgdn.fiver": "5r",
       "item.mtxgdn.green_armor_boots": "Green Boots",
       "item.mtxgdn.green_hoe": "Green Hoe",
@@ -2148,7 +2232,8 @@
       "item.mtxgdn.white_armor_boots": "White Boots",
       "advancements.dimension.descr": "Enter Dimension",
       "item.mtxgdn.green_pickaxe": "Green Pickaxe",
-      "block.mtxgdn.white_slab": "White Slab"
+      "block.mtxgdn.white_slab": "White Slab",
+      "item.mtxgdn.barripple": "Barripple"
     },
     "zh_cn": {
       "item.mtxgdn.white_axe": "白斧",
@@ -2204,6 +2289,7 @@
       "advancements.craft_a_crafting_table.descr": "制造第一个工作台",
       "item.mtxgdn.bedrock_armor_helmet": "基岩头盔",
       "item.mtxgdn.fiftyr": "50元",
+      "wishing.you.all.the.best": "万事顺利，前途似锦（成功上岸？）",
       "item.mtxgdn.fiver": "5元",
       "item.mtxgdn.green_armor_boots": "Green Boots",
       "item.mtxgdn.green_hoe": "Green Hoe",
@@ -2242,7 +2328,8 @@
       "item.mtxgdn.white_armor_boots": "White Boots",
       "advancements.dimension.descr": "维度",
       "item.mtxgdn.green_pickaxe": "Green Pickaxe",
-      "block.mtxgdn.white_slab": "White Slab"
+      "block.mtxgdn.white_slab": "White Slab",
+      "item.mtxgdn.barripple": "屏果"
     }
   },
   "foldersRoot": {
@@ -2307,11 +2394,24 @@
         ]
       },
       {
-        "name": "bot",
+        "name": "sundries",
         "children": []
       },
       {
-        "name": "sundries",
+        "name": "dirt shop",
+        "children": []
+      },
+      {
+        "name": "command",
+        "children": [
+          {
+            "name": "suicide",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "food",
         "children": []
       }
     ]
@@ -2319,7 +2419,7 @@
   "workspaceSettings": {
     "modid": "mtxgdn",
     "modName": "mtxgdn",
-    "version": "1.0.19",
+    "version": "1.0.20",
     "author": "gxydn",
     "websiteURL": "https://github.com/CSimpleOS",
     "license": "GNU General Public License version 3 (GPLv3)",
